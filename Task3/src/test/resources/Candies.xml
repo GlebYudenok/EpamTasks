@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<candies  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Candies.xsd">
+    <candy id="1">
+        <title>Lindor</title>
+        <energy>630</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>false</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>15</quantity>
+                <name>cacao</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>20</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="ml">
+                <quantity>120</quantity>
+                <name>milk</name>
+            </ingredient>
+        </ingredients>
+        <value unit="mg">
+            <fat>53</fat>
+            <protein>4.3</protein>
+            <carbohydrates>33</carbohydrates>
+        </value>
+        <producer country="CHE">
+            <enterprise>Lindt</enterprise>
+        </producer>
+    </candy>
+</candies>

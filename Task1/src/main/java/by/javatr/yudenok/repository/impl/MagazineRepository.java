@@ -21,8 +21,7 @@ public class MagazineRepository implements Repository<Magazine> {
 
     private static final Logger logger = LogManager.getLogger(MagazineRepository.class);
 
-    private static final File filePath = new File("src" + File.separator + "main" +
-            File.separator + "resources" + File.separator + "MagazineList.txt");
+    private static final File filePath = new File("src/main/resources/MagazineList.txt");
 
 
     public File getPath() {

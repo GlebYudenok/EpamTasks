@@ -19,8 +19,7 @@ import java.util.List;
 public class AlbumRepository implements Repository<Album> {
 
     private static final Logger logger = LogManager.getLogger(AlbumRepository.class);
-    private static final File filePath = new File("src" + File.separator + "main" +
-            File.separator + "resources" + File.separator + "AlbumList.txt");
+    private static final File filePath = new File("src/main/resources/AlbumList.txt");
 
 
     public File getPath() {

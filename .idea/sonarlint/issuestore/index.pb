@@ -27,3 +27,15 @@ i
 9Task2/src/main/java/by/javatr/yudenok/bean/Paragraph.java,0\d\0da69bfc910b687d976417384522eca605a77825
 f
 6Task2/src/main/java/by/javatr/yudenok/runner/Main.java,e\d\ed452386c76b7321e2a8caf0151db91b27251e01
+z
+JTask3/src/test/java/by/javatr/yudenok/controller/parser/DOMParserTest.java,2\a\2a63aa2449a254ca904d59e8ba3c2f740853ce41
+T
+$Task3/src/test/resources/Candies.xml,e\8\e89e7391b42a2267a91dd4d8e51c9b5049578f63
+o
+?Task3/src/main/java/by/javatr/yudenok/bean/wrapper/Candies.java,4\2\421ea7147e346401eab3841161d653f844443265
+=
+Task3/pom.xml,d\d\dd4542c5235e0ca24380346669a4317ddb988622
+q
+ATask3/src/main/java/by/javatr/yudenok/printer/CandiesPrinter.java,8\d\8d70dccf44c527deb5a318c496780cbb7c924833
+k
+;Task3/src/main/java/by/javatr/yudenok/presentation/Run.java,9\5\956e56b9dc825a49180c835c15fee26ff15570d7

@@ -130,6 +130,7 @@ public class Run {
         } catch (IOException e) {
             logger.error("File not found");
             System.err.println("File not found");
+            System.out.println(e);
         } catch (ParserException e) {
             logger.error("Wrong datas in file");
             System.err.println("Wrong datas in file");

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="candies" type="candiesType"/>
+  <xs:complexType name="candyTypeType">
+    <xs:sequence>
+      <xs:element name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="CARAMEL"/>
+            <xs:enumeration value="CHOCOLATE"/>
+            <xs:enumeration value= "SUGAR"/>
+            <xs:enumeration value="CHEWING"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="filling">
+        <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="true"/>
+          <xs:enumeration value="false"/>
+        </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ingredientType">
+    <xs:sequence>
+      <xs:element name="quantity">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="unit" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="ingredientsType">
+    <xs:sequence>
+      <xs:element type="ingredientType" name="ingredient" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="valueType">
+    <xs:sequence>
+      <xs:element type="xs:double" name="fat"/>
+      <xs:element type="xs:double" name="protein"/>
+      <xs:element type="xs:double" name="carbohydrates"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="unit" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="producerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="enterprise"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="country" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="candyType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="title"/>
+      <xs:element type="xs:string" name="energy"/>
+      <xs:element type="candyTypeType" name="candyType"/>
+      <xs:element type="ingredientsType" name="ingredients"/>
+      <xs:element type="valueType" name="value"/>
+      <xs:element type="producerType" name="producer"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="candiesType">
+    <xs:sequence>
+      <xs:element type="candyType" name="candy" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

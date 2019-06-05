@@ -19,8 +19,7 @@ import java.util.List;
 
 public class BookRepository implements Repository<Book> {
 
-    private static final File filePath = new File("src" + File.separator + "main" +
-            File.separator + "resources" + File.separator + "BookList.txt");
+    private static final File filePath = new File("src\\main\\resources\\BookList.txt");
 
 
     public File getPath() {

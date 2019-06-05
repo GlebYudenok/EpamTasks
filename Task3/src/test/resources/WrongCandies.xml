@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<candies  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Candies.xsd">
+    <candy id="3">
+        <name>Sweet</name>
+        <energy>24</energy>
+        <candyType>
+            <type>CHEWING</type>
+            <filling>false</filling>
+        </candyType>
+       ="pizda">
+                <quantity>10</quantity>
+                <name>xyi</name>
+            </ingredient>
+        </ingredients>
+        <value unit="mg">
+            <fat>20</fat>
+            <protein>50</protein>
+            <carbohydrates>23</carbohydrates>
+        </value>
+        <producer country="Blr">
+            <enterprise>entprs</enterprise>
+        </producer>
+    </candy>
+
+    <candy id="2">
+        <name>Sweet</name>
+        <energy>24</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+        <value unit="mg">
+            <fat>20</fat>
+            <protein>50</protein>
+            <carbohydrates>23</carbohydrates>
+        </value>
+        <producer country="Blr">
+            <enterprise>entprs</enterprise>
+        </producer>
+    </candy>
+</candies>
