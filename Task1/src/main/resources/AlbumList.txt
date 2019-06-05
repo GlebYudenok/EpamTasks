@@ -1,0 +1,3 @@
+BigAlbum 96
+SmallAlbum 24
+Standart 48

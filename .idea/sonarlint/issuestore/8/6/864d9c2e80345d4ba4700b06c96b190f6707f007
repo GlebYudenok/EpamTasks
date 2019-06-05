@@ -1,0 +1,8 @@
+
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(µÐÑâýÿÿÿÿ
+qsquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "book".(çµ¸õ
+Fsquid:S1481",Remove this unused "library" local variable.(îÍ±„ÿÿÿÿÿ
+hsquid:S2095"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(Øú’¨üÿÿÿÿ
+[squid:S1858"A"s" is an array of strings, there's no need to call "toString()".(·¸ª¥ûÿÿÿÿ
+Vsquid:S1858"A"s" is an array of strings, there's no need to call "toString()".(¢º†ä
+Vsquid:S1858"A"s" is an array of strings, there's no need to call "toString()".(Ö¹æÞ

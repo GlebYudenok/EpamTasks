@@ -1,0 +1,6 @@
+
+Fsquid:S1481",Remove this unused "library" local variable.(îÍ±„ÿÿÿÿÿ
+[squid:S1118":Add a private constructor to hide the implicit public one.(þ¦šïúÿÿÿÿ8æò’½²-
+Vsquid:S1858"A"s" is an array of strings, there's no need to call "toString()".(©¼ç»
+hsquid:S2095"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(Øú’¨üÿÿÿÿ
+rsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "album".(±Á÷¨

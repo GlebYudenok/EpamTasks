@@ -1,0 +1,4 @@
+Fedor Dostoevski PrestuplenieINakazanie 1234 2001 FANTASY
+Stephen King It 2000 1986 HORROR
+John Tolkin LordOfTheRings 3434 1954 FANTASY
+Joan Rouling HarryPotter 5934 1997 FANTASY

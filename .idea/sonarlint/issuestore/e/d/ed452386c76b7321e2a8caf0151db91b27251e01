@@ -1,0 +1,35 @@
+
+ƒsquid:S1192%"gDefine a constant instead of duplicating this literal "Error at the time of reading from file" 3 times.(î–Îˆøÿÿÿÿ
+bsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(ëù¦ð
+T
+squid:S106%"9Replace this use of System.out or System.err by a logger.(î–Îˆøÿÿÿÿ
+T
+squid:S1066"9Replace this use of System.out or System.err by a logger.(î–Îˆøÿÿÿÿ
+O
+squid:S106>"9Replace this use of System.out or System.err by a logger.(®Ã…ç
+Qsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Qsquid:S1141*"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Qsquid:S1141:"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Asquid:S00108,")Either remove or fill this block of code.(˜–Ü¢
+[squid:S2147 "DCombine this catch with the one at line 30, which has the same body.(ï­£Ä
+`squid:S2147""DCombine this catch with the one at line 30, which has the same body.(¢ë¾ ÿÿÿÿÿ
+[squid:S21471"DCombine this catch with the one at line 47, which has the same body.(ï­£Ä
+`squid:S21473"DCombine this catch with the one at line 47, which has the same body.(¢ë¾ ÿÿÿÿÿ
+[squid:S2147B"DCombine this catch with the one at line 64, which has the same body.(ï­£Ä
+`squid:S2147D"DCombine this catch with the one at line 64, which has the same body.(¢ë¾ ÿÿÿÿÿ
+[squid:S2147F"DCombine this catch with the one at line 64, which has the same body.(Ãÿ²¤
+asquid:UselessImportCheck"8Remove this unused import 'by.javatr.yudenok.bean.Text'.(¤‹Ðøÿÿÿÿ
+csquid:UselessImportCheck":Remove this unused import 'by.javatr.yudenok.dao.TextDAO'.(Ñ”Æùÿÿÿÿ
+bsquid:UselessImportCheck">Remove this unused import 'by.javatr.yudenok.dao.TextDAOimpl'.(Í½· 
+rsquid:UselessImportCheck"IRemove this unused import 'by.javatr.yudenok.composite.CompositeElement'.(Ùœ—Šýÿÿÿÿ
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148!"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S11480"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S11482"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S11484"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148A"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148E"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148G"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

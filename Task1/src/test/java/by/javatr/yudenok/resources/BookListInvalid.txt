@@ -1,0 +1,7 @@
+Micgakov MasterIMargarita 345 1525 HISTORY
+             Fedor Dostoevski PrestuplenieINakazanie 1234 2001 FANTASY
+     h        Franc Kafka P23 HORRORrocess434 2002 HORROR
+             Gleb Yudenok Programming 123 1999 NONFICTION
+             1 1 dsf1 25 123 HORROR
+             1 1 dsf2 25 1
+1 1 ael Buldsf3 25 123 HORROR
