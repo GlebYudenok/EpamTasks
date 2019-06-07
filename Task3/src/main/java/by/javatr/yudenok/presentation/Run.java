@@ -23,8 +23,9 @@ public class Run {
 
     public static void main(String[] args) throws JAXBException, IOException, SAXException, ParserConfigurationException, ParserException {
         Controller controller = new Controller();
-        controller.executeTask(ParserKinds.DOM, "D:\\Epam\\EpamTasks\\Task3\\src\\main\\resources\\Candies.xml");
-        controller.executeTask(ParserKinds.JAXB, "D:\\Epam\\EpamTasks\\Task3\\src\\main\\resources\\Candies.xml");
-        controller.executeTask(ParserKinds.SAX, "D:\\Epam\\EpamTasks\\Task3\\src\\main\\resources\\Candies.xml");
+        controller.executeTask(ParserKinds.DOM, "Task3\\src\\main\\resources\\Candies.xml");
+        controller.executeTask(ParserKinds.JAXB, "Task3\\src\\main\\resources\\Candies.xml");
+        controller.executeTask(ParserKinds.SAX, "Task3\\src\\main\\resources\\Candies.xml");
+        controller.executeTask(ParserKinds.StAX, "Task3\\src\\main\\resources\\Candies.xml");
     }
 }

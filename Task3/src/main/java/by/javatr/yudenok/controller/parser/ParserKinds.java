@@ -4,5 +4,5 @@ public enum ParserKinds {
     JAXB,
     DOM,
     StAX,
-    SAX;
+    SAX
 }
