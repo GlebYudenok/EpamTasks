@@ -15,12 +15,18 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 public class DOMParser implements XMLParser {
+
     @Override
-    public List<Candy> parseXML(String path) throws ParserException {
+    public List<Candy> parseXML(String path) throws ParserException, ParseException {
 
         List<Candy> candies = new ArrayList<>();
 
@@ -162,6 +168,16 @@ public class DOMParser implements XMLParser {
                                         String content1 = node1.getLastChild().getNodeValue();
                                         if(node1.getNodeName() == "enterprise"){
                                             producer.setEnterprise(content1);
+                                        }
+                                        if(node1.getNodeName() == "foundingDate") {
+                                            Calendar calendar = Calendar.getInstance();
+                                            String strs[] = content1.split("-");
+
+                                            calendar.set(Integer.parseInt(strs[0]),
+                                                    Integer.parseInt(strs[1]),
+                                                    Integer.parseInt(strs[2]));
+
+                                            producer.setFoundingDate(calendar);
                                         }
                                     }
                                 }

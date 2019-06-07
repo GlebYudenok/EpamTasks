@@ -10,15 +10,17 @@
             <xs:enumeration value="CHOCOLATE"/>
             <xs:enumeration value= "SUGAR"/>
             <xs:enumeration value="CHEWING"/>
+            <xs:enumeration value="MARMALADE"/>
+            <xs:enumeration value="MARSHMALLOW"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
       <xs:element name="filling">
         <xs:simpleType>
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="true"/>
-          <xs:enumeration value="false"/>
-        </xs:restriction>
+          <xs:restriction base="xs:boolean">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
         </xs:simpleType>
       </xs:element>
     </xs:sequence>
@@ -42,7 +44,7 @@
   </xs:complexType>
   <xs:complexType name="ingredientsType">
     <xs:sequence>
-      <xs:element type="ingredientType" name="ingredient" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="ingredientType" name="ingredient" maxOccurs="unbounded" minOccurs="1"/>
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="valueType">
@@ -56,6 +58,7 @@
   <xs:complexType name="producerType">
     <xs:sequence>
       <xs:element type="xs:string" name="enterprise"/>
+      <xs:element type="xs:date" name="foundingDate"/>
     </xs:sequence>
     <xs:attribute type="xs:string" name="country" use="required"/>
   </xs:complexType>

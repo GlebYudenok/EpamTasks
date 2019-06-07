@@ -26,6 +26,7 @@
         </value>
         <producer country="CHE">
             <enterprise>Lindt</enterprise>
+            <foundingDate>1845-01-01</foundingDate>
         </producer>
     </candy>
 
@@ -52,7 +53,488 @@
             <carbohydrates>53</carbohydrates>
         </value>
         <producer country="UKR">
-            <enterprise>Roshan</enterprise>
+            <enterprise>Roshen</enterprise>
+            <foundingDate>1996-06-13</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="3">
+        <title>I love you</title>
+        <energy>392</energy>
+        <candyType>
+            <type>MARMALADE</type>
+            <filling>false</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>23</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="g">
+                <quantity>3</quantity>
+                <name>gelatin</name>
+            </ingredient>
+            <ingredient unit="g">
+                <quantity>2</quantity>
+                <name>colorants</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>2</fat>
+            <protein>4</protein>
+            <carbohydrates>25.5</carbohydrates>
+        </value>
+        <producer country="DE">
+            <enterprise>Haribo</enterprise>
+            <foundingDate>1920-03-18</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="4">
+        <title>Chamallows exotic</title>
+        <energy>392</energy>
+        <candyType>
+            <type>MARSHMALLOW</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="g">
+                <quantity>32</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="ml">
+                <quantity>100</quantity>
+                <name>water</name>
+            </ingredient>
+            <ingredient unit="g">
+                <quantity>50</quantity>
+                <name>syrup</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>5.4</fat>
+            <protein>0.3</protein>
+            <carbohydrates>95.5</carbohydrates>
+        </value>
+        <producer country="DE">
+            <enterprise>Haribo</enterprise>
+            <foundingDate>1920-03-18</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="4">
+        <title>Super meller</title>
+        <energy>450</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>40</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="ml">
+                <quantity>30</quantity>
+                <name>glucose syrup</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>56</quantity>
+                <name>cacao</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>72</fat>
+            <protein>3.5</protein>
+            <carbohydrates>16</carbohydrates>
+        </value>
+        <producer country="IT">
+            <enterprise>Perfetti van Melle</enterprise>
+            <foundingDate>2001-01-15</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="5">
+        <title>Mentos</title>
+        <energy>390</energy>
+        <candyType>
+            <type>CHEWING</type>
+            <filling>false</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>40</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="ml">
+                <quantity>30</quantity>
+                <name>glucose syrup</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>2</fat>
+            <protein>0</protein>
+            <carbohydrates>93</carbohydrates>
+        </value>
+        <producer country="IT">
+            <enterprise>Perfetti van Melle</enterprise>
+            <foundingDate>2001-01-15</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="6">
+        <title>Солнечный жук</title>
+        <energy>330</energy>
+        <candyType>
+            <type>CHEWING</type>
+            <filling>false</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>40</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>5</quantity>
+                <name>colorants</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>0.1</fat>
+            <protein>0</protein>
+            <carbohydrates>79</carbohydrates>
+        </value>
+        <producer country="UKR">
+            <enterprise>Roshen</enterprise>
+            <foundingDate>1996-06-13</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="7">
+        <title>Roshen classic</title>
+        <energy>530</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>40</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>94</quantity>
+                <name>cacao</name>
+            </ingredient>
+            <ingredient unit="ml">
+                <quantity>100</quantity>
+                <name>alcohol</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>33</fat>
+            <protein>5.5</protein>
+            <carbohydrates>49</carbohydrates>
+        </value>
+        <producer country="UKR">
+            <enterprise>Roshen</enterprise>
+            <foundingDate>1996-06-13</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="8">
+        <title>Peppinezzz</title>
+        <energy>380</energy>
+        <candyType>
+            <type>CARAMEL</type>
+            <filling>false</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>42</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>55</quantity>
+                <name>acid</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>0</fat>
+            <protein>0</protein>
+            <carbohydrates>92</carbohydrates>
+        </value>
+        <producer country="UKR">
+            <enterprise>Roshen</enterprise>
+            <foundingDate>1996-06-13</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="9">
+        <title>MilkiWay</title>
+        <energy>452</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>32</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="ml">
+                <quantity>77</quantity>
+                <name>milk</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>100</quantity>
+                <name>milk chocolate</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>16.5</fat>
+            <protein>3</protein>
+            <carbohydrates>72.4</carbohydrates>
+        </value>
+        <producer country="USA">
+            <enterprise>Mars inc</enterprise>
+            <foundingDate>1911-06-23</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="10">
+        <title>Snickers</title>
+        <energy>496</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>67</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>53</quantity>
+                <name>peanut</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>85</quantity>
+                <name>milk chocolate</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>25.3</fat>
+            <protein>7.9</protein>
+            <carbohydrates>58.6</carbohydrates>
+        </value>
+        <producer country="USA">
+            <enterprise>Mars inc</enterprise>
+            <foundingDate>1911-06-23</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="11">
+        <title>Mars</title>
+        <energy>456</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>71</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>25</quantity>
+                <name>cacao</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>132</quantity>
+                <name>milk chocolate</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>18</fat>
+            <protein>4.4</protein>
+            <carbohydrates>68.5</carbohydrates>
+        </value>
+        <producer country="USA">
+            <enterprise>Mars inc</enterprise>
+            <foundingDate>1911-06-23</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="12">
+        <title>Kit Kat</title>
+        <energy>520</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>43</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>23</quantity>
+                <name>cacao</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>65</quantity>
+                <name>dark chocolate</name>
+            </ingredient>
+            <ingredient unit="g">
+                <quantity>20</quantity>
+                <name>wafer</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>28</fat>
+            <protein>5.2</protein>
+            <carbohydrates>59</carbohydrates>
+        </value>
+        <producer country="USA">
+            <enterprise>Mars inc</enterprise>
+            <foundingDate>1911-06-23</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="13">
+        <title>Twix</title>
+        <energy>497</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>62</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>42</quantity>
+                <name>cacao</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>24</quantity>
+                <name>milk chocolate</name>
+            </ingredient>
+            <ingredient unit="g">
+                <quantity>34</quantity>
+                <name>caramel</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>24.3</fat>
+            <protein>4.1</protein>
+            <carbohydrates>64.5</carbohydrates>
+        </value>
+        <producer country="USA">
+            <enterprise>Mars inc</enterprise>
+            <foundingDate>1911-06-23</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="14">
+        <title>Skittles "Фруктовый йогурт"</title>
+        <energy>406</energy>
+        <candyType>
+            <type>CHEWING</type>
+            <filling>false</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>32</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>15</quantity>
+                <name>lemon acid</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>12</quantity>
+                <name>apple acid</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>4.2</fat>
+            <protein>0</protein>
+            <carbohydrates>92</carbohydrates>
+        </value>
+        <producer country="USA">
+            <enterprise>Skittles</enterprise>
+            <foundingDate>1997-06-23</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="15">
+        <title>Lion</title>
+        <energy>475</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="ml">
+                <quantity>35</quantity>
+                <name>glucose and fruit syrup</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>30</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>159</quantity>
+                <name>milk chocolate</name>
+            </ingredient>
+        </ingredients>
+        <value unit="g">
+            <fat>5.6</fat>
+            <protein>5.6</protein>
+            <carbohydrates>65.6</carbohydrates>
+        </value>
+        <producer country="SWE">
+            <enterprise>Nestle</enterprise>
+            <foundingDate>1860-03-03</foundingDate>
+        </producer>
+    </candy>
+
+    <candy id="16">
+        <title>Toffifee</title>
+        <energy>514</energy>
+        <candyType>
+            <type>CHOCOLATE</type>
+            <filling>true</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="mg">
+                <quantity>35</quantity>
+                <name>caramel</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>50</quantity>
+                <name>milk chocolate</name>
+            </ingredient>
+            <ingredient unit="amount">
+                <quantity>1</quantity>
+                <name>nut</name>
+            </ingredient>
+            <ingredient unit="mg">
+                <quantity>32</quantity>
+                <name>nougat</name>
+            </ingredient>
+        </ingredients>
+        <value unit="">
+            <fat>28.6</fat>
+            <protein>5.9</protein>
+            <carbohydrates>100</carbohydrates>
+        </value>
+        <producer country="DE">
+            <enterprise>Toffifee</enterprise>
+            <foundingDate>1973-10-30</foundingDate>
         </producer>
     </candy>
 </candies>

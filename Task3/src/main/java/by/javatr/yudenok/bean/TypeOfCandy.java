@@ -7,7 +7,9 @@ public enum  TypeOfCandy {
     CARAMEL("CARAMEL"),
     CHOCOLATE("CHOCOLATE"),
     SUGAR("SUGAR"),
-    CHEWING("CHEWING");
+    CHEWING("CHEWING"),
+    MARMALADE("MARMALADE"),
+    MARSHMALLOW("MARSHMALLOW");
 
     private final String type;
 

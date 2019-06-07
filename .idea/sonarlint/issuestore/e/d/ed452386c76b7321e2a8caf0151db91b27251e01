@@ -1,35 +1,35 @@
 
-Qsquid:S1141:"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Qsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Asquid:S00108,")Either remove or fill this block of code.(˜–Ü¢
+?squid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Qsquid:S1141*"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+[squid:S2147F"DCombine this catch with the one at line 64, which has the same body.(Ãÿ²¤
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+csquid:UselessImportCheck":Remove this unused import 'by.javatr.yudenok.dao.TextDAO'.(Ñ”Æùÿÿÿÿ
+[squid:S21471"DCombine this catch with the one at line 47, which has the same body.(ï­£Ä
+?squid:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+`squid:S21473"DCombine this catch with the one at line 47, which has the same body.(¢ë¾ ÿÿÿÿÿ
 T
 squid:S1066"9Replace this use of System.out or System.err by a logger.(î–Îˆøÿÿÿÿ
-asquid:UselessImportCheck"8Remove this unused import 'by.javatr.yudenok.bean.Text'.(¤‹Ğøÿÿÿÿ
-?squid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-`squid:S2147""DCombine this catch with the one at line 30, which has the same body.(¢ë¾ ÿÿÿÿÿ
-`squid:S21473"DCombine this catch with the one at line 47, which has the same body.(¢ë¾ ÿÿÿÿÿ
-[squid:S2147B"DCombine this catch with the one at line 64, which has the same body.(ï­£Ä
-ƒsquid:S1192%"gDefine a constant instead of duplicating this literal "Error at the time of reading from file" 3 times.(î–Îˆøÿÿÿÿ
-?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-bsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(ëù¦ğ
-[squid:S2147F"DCombine this catch with the one at line 64, which has the same body.(Ãÿ²¤
-bsquid:UselessImportCheck">Remove this unused import 'by.javatr.yudenok.dao.TextDAOimpl'.(Í½· 
 T
 squid:S106%"9Replace this use of System.out or System.err by a logger.(î–Îˆøÿÿÿÿ
-?squid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-[squid:S21471"DCombine this catch with the one at line 47, which has the same body.(ï­£Ä
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+asquid:UselessImportCheck"8Remove this unused import 'by.javatr.yudenok.bean.Text'.(¤‹Ğøÿÿÿÿ
+bsquid:UselessImportCheck">Remove this unused import 'by.javatr.yudenok.dao.TextDAOimpl'.(Í½· 
+?squid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+ƒsquid:S1192%"gDefine a constant instead of duplicating this literal "Error at the time of reading from file" 3 times.(î–Îˆøÿÿÿÿ
+[squid:S2147B"DCombine this catch with the one at line 64, which has the same body.(ï­£Ä
+bsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(ëù¦ğ
+`squid:S2147D"DCombine this catch with the one at line 64, which has the same body.(¢ë¾ ÿÿÿÿÿ
+?squid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Qsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Qsquid:S1141:"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
 rsquid:UselessImportCheck"IRemove this unused import 'by.javatr.yudenok.composite.CompositeElement'.(Ùœ—Šıÿÿÿÿ
+?squid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
 [squid:S2147 "DCombine this catch with the one at line 30, which has the same body.(ï­£Ä
 O
 squid:S106>"9Replace this use of System.out or System.err by a logger.(®Ã…ç
-Qsquid:S1141*"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-`squid:S2147D"DCombine this catch with the one at line 64, which has the same body.(¢ë¾ ÿÿÿÿÿ
-csquid:UselessImportCheck":Remove this unused import 'by.javatr.yudenok.dao.TextDAO'.(Ñ”Æùÿÿÿÿ
-?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Asquid:S00108,")Either remove or fill this block of code.(˜–Ü¢
-?squid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+`squid:S2147""DCombine this catch with the one at line 30, which has the same body.(¢ë¾ ÿÿÿÿÿ

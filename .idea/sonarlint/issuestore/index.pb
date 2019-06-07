@@ -111,3 +111,9 @@ Y
 )Task3/src/test/resources/WrongCandies.xml,1\8\18f1f780e5048fc1b761f96618654191ecc9465e
 ?
 Task3/Task3.iml,c\6\c68d0236ee76a2439d2176c7b08d5d99575ed6cf
+€
+PTask3/src/test/java/by/javatr/yudenok/controller/parser/impl/SAXParsersTest.java,d\c\dcee4525fe6a9be1727b40ea71a8425494459b07
+|
+LTask3/src/main/java/by/javatr/yudenok/controller/AbstractCandiesBuilder.java,0\9\092ff2c2d4f35d2444b36e0834c3c7fccd3923f3
+|
+LTask3/src/main/java/by/javatr/yudenok/controller/impl/CandiesDOMBuilder.java,6\9\69cd66a2c2e86c4c808aadff17ac3f265970e990

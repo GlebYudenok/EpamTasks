@@ -4,6 +4,7 @@ import by.javatr.yudenok.controller.parser.impl.DOMParser;
 import by.javatr.yudenok.exception.ParserException;
 import org.junit.Test;
 
+import java.text.ParseException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -16,22 +17,22 @@ public class DOMParserTest {
             "wrongPath.xml");
 
     @Test
-    public void parseIdeal() throws ParserException{
+    public void parseIdeal() throws ParserException, ParseException {
         domParser.parseXML(paths.get(0)).forEach(System.out::println);
     }
 
     @Test(expected = ParserException.class)
-    public void parseEmptyFile() throws ParserException{
+    public void parseEmptyFile() throws ParserException, ParseException {
         domParser.parseXML(paths.get(1));
     }
 
     @Test(expected = ParserException.class)
-    public void parseWrongFile() throws ParserException {
+    public void parseWrongFile() throws ParserException, ParseException {
         domParser.parseXML(paths.get(2));
     }
 
     @Test(expected = ParserException.class)
-    public void parseWrongPath() throws ParserException{
+    public void parseWrongPath() throws ParserException, ParseException {
         domParser.parseXML(paths.get(3));
     }
 }

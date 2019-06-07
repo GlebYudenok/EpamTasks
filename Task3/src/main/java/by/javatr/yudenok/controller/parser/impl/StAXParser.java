@@ -10,6 +10,7 @@ import javax.xml.stream.XMLStreamReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class StAXParser implements XMLParser {
@@ -92,6 +93,16 @@ public class StAXParser implements XMLParser {
                             break;
                         case "enterprise":
                             producer.setEnterprise(content);
+                            break;
+                        case "foundingDate":
+                            Calendar calendar = Calendar.getInstance();
+                            String strs[] = content.split("-");
+
+                            calendar.set(Integer.parseInt(strs[0]),
+                                    Integer.parseInt(strs[1]),
+                                    Integer.parseInt(strs[2]));
+
+                            producer.setFoundingDate(calendar);
                             candy.setProducer(producer);
                             break;
                     }

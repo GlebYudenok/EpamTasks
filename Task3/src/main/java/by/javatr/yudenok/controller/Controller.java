@@ -14,6 +14,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLStreamException;
 import java.io.IOException;
+import java.text.ParseException;
 
 public class Controller {
 
@@ -26,7 +27,7 @@ public class Controller {
         parser = ParsersFactory.parseXML(parserKinds);
         try {
             CandiesPrinter.printInfo(parser.parseXML(path));
-        } catch (JAXBException | ParserException | ParserConfigurationException | IOException | SAXException | XMLStreamException e) {
+        } catch (JAXBException | ParserException | ParserConfigurationException | IOException | SAXException | XMLStreamException | ParseException e) {
             LOGGER.error(e);
             System.err.println("Error");
         }
