@@ -1,6 +1,7 @@
 
-Fsquid:S1481",Remove this unused "library" local variable.(îÍ±„ÿÿÿÿÿ
-[squid:S1118":Add a private constructor to hide the implicit public one.(ş¦šïúÿÿÿÿ8æò’½²-
-Vsquid:S1858"A"s" is an array of strings, there's no need to call "toString()".(©¼ç»
-hsquid:S2095"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(Øú’¨üÿÿÿÿ
-rsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "album".(±Á÷¨
+jsquid:S20952"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(Øú’¨üÿÿÿÿ
+tsquid:S1488K"]Immediately return this expression instead of assigning it to the temporary variable "album".(±Á÷¨
+Hsquid:S1481>",Remove this unused "library" local variable.(îÍ±„ÿÿÿÿÿ
+]squid:S1118":Add a private constructor to hide the implicit public one.(ş¦šïúÿÿÿÿ8æò’½²-
+Xsquid:S1858D"A"s" is an array of strings, there's no need to call "toString()".(©¼ç»
+wsquid:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(óüƒö8ÜÑÅ²-

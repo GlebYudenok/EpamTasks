@@ -1,91 +1,92 @@
 
-v%squid:RedundantThrowsDeclarationCheck"GRemove the redundant '!unknownSymbol!' thrown exception declaration(s).(âÉÑ
-rsquid:S1192"XDefine a constant instead of duplicating this literal "=======================" 4 times.(ôÆõÍúÿÿÿÿ
-jsquid:S1192"UDefine a constant instead of duplicating this literal "Invalid specificator" 3 times.(ßŸí
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(â†óûÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(«”­
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(½–çÆ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(‘õ¼©ùÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ø°å¼
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹ñõ’
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(„Û¼
-L
-squid:S106"9Replace this use of System.out or System.err by a logger.(®£ùm
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Åá—•şÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ô¸Üï
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¬Ê”·úÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(²İ¨¦
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(óÉ¼
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(Œ¯¯Œ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ıØ±üÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÂäÕ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾…ı
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÕñÓŞ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ôÆõÍúÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(í™‰œÿÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ØÊô•
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Æ¬÷İøÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(«¸™Ç
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ôÆõÍúÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ôÆõÍúÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ò…å‰
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(²×Õşÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(è‘¹Ñıÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ôÆõÍúÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(šÉÎÖ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¶Ğùëşÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(â¡Ÿ‹
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¸³Ï„ıÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(»¹°
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ö”‚ñÿÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-}squid:UselessImportCheck"[Remove this unused import 'by.javatr.yudenok.service.impl.sort.magazine.MagazineTitleSort'.(Ÿ˜ò
-Šsquid:UselessImportCheck"iRemove this unused import 'by.javatr.yudenok.repository.impl.magazineMatch.ByMagazineTitleSpecification'.(ö¸í&
-wsquid:UselessImportCheck"URemove this unused import 'by.javatr.yudenok.service.impl.sort.book.BookAuthorsSort'.(§Â®Ò
-ƒsquid:UselessImportCheck"aRemove this unused import 'by.javatr.yudenok.service.impl.sort.magazine.MagazinePagesAmountSort'.(¼¿¨€
-zsquid:UselessImportCheck"SRemove this unused import 'by.javatr.yudenok.service.impl.sort.book.BookTitleSort'.(Ù¬ßšúÿÿÿÿ
-ksquid:UselessImportCheck"DRemove this unused import 'by.javatr.yudenok.service.SorterService'.(úŸºËúÿÿÿÿ
-Œsquid:UselessImportCheck"eRemove this unused import 'by.javatr.yudenok.service.impl.sort.magazine.MagazinePublishingHouseSort'.(¢¶ì‹ÿÿÿÿÿ
-Œsquid:UselessImportCheck"jRemove this unused import 'by.javatr.yudenok.repository.impl.albumMatch.ByAlbumCompanysNameSpecification'.(Ã€ˆĞ
-squid:UselessImportCheck"wRemove this unused import 'by.javatr.yudenok.repository.impl.magazineMatch.ByMagazinePublishingHouseNameSpecification'.(¤åÂˆÿÿÿÿÿ
-‚squid:UselessImportCheck"[Remove this unused import 'by.javatr.yudenok.service.impl.sort.album.AlbumPagesAmountSort'.(ôæƒéûÿÿÿÿ
-{squid:UselessImportCheck"YRemove this unused import 'by.javatr.yudenok.service.impl.sort.book.BookWritingYearSort'.( €‡ù
+O
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ØÊô•
+O
+squid:S106f"9Replace this use of System.out or System.err by a logger.(«¸™Ç
+P
+squid:S106„"9Replace this use of System.out or System.err by a logger.(â¡Ÿ‹
+O
+squid:S1069"9Replace this use of System.out or System.err by a logger.(«”­
+O
+squid:S106n"9Replace this use of System.out or System.err by a logger.(ò…å‰
+U
+squid:S106–"9Replace this use of System.out or System.err by a logger.(Ö”‚ñÿÿÿÿÿ
+O
+squid:S106N"9Replace this use of System.out or System.err by a logger.(„Û¼
+U
+squid:S106—"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+squid:UselessImportCheck"eRemove this unused import 'by.javatr.yudenok.service.impl.sort.magazine.MagazinePublishingHouseSort'.(¢¶ì‹ÿÿÿÿÿ
+T
+squid:S106d"9Replace this use of System.out or System.err by a logger.(Æ¬÷İøÿÿÿÿ
+T
+squid:S106r"9Replace this use of System.out or System.err by a logger.(è‘¹Ñıÿÿÿÿ
+T
+squid:S106z"9Replace this use of System.out or System.err by a logger.(ôÆõÍúÿÿÿÿ
+Qsquid:S1141\"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+O
+squid:S106U"9Replace this use of System.out or System.err by a logger.(Œ¯¯Œ
+U
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(¸³Ï„ıÿÿÿÿ
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(â†óûÿÿÿÿ
+T
+squid:S106`"9Replace this use of System.out or System.err by a logger.(ôÆõÍúÿÿÿÿ
+T
+squid:S106p"9Replace this use of System.out or System.err by a logger.(²×Õşÿÿÿÿ
+Qsquid:S1141M"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(¬Ê”·úÿÿÿÿ
+„squid:UselessImportCheck"[Remove this unused import 'by.javatr.yudenok.service.impl.sort.album.AlbumPagesAmountSort'.(ôæƒéûÿÿÿÿ
+T
+squid:S106P"9Replace this use of System.out or System.err by a logger.(Åá—•şÿÿÿÿ
+T
+squid:S106a"9Replace this use of System.out or System.err by a logger.(í™‰œÿÿÿÿÿ
+T
+squid:S106g"9Replace this use of System.out or System.err by a logger.(ôÆõÍúÿÿÿÿ
+ squid:UselessImportCheck"wRemove this unused import 'by.javatr.yudenok.repository.impl.magazineMatch.ByMagazinePublishingHouseNameSpecification'.(¤åÂˆÿÿÿÿÿ
+T
+squid:S106|"9Replace this use of System.out or System.err by a logger.(¶Ğùëşÿÿÿÿ
+ysquid:UselessImportCheck"URemove this unused import 'by.javatr.yudenok.service.impl.sort.book.BookAuthorsSort'.(§Â®Ò
+O
+squid:S106T"9Replace this use of System.out or System.err by a logger.(óÉ¼
+squid:UselessImportCheck"jRemove this unused import 'by.javatr.yudenok.repository.impl.albumMatch.ByAlbumCompanysNameSpecification'.(Ã€ˆĞ
+O
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Ø°å¼
+O
+squid:S106S"9Replace this use of System.out or System.err by a logger.(²İ¨¦
+O
+squid:S106]"9Replace this use of System.out or System.err by a logger.(¾…ı
+Qsquid:S1141m"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(‘õ¼©ùÿÿÿÿ
+N
+squid:S106O"9Replace this use of System.out or System.err by a logger.(®£ùm
+}squid:UselessImportCheck"YRemove this unused import 'by.javatr.yudenok.service.impl.sort.book.BookWritingYearSort'.( €‡ù
+O
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ÕñÓŞ
+T
+squid:S106l"9Replace this use of System.out or System.err by a logger.(ôÆõÍúÿÿÿÿ
+tsquid:S1192`"XDefine a constant instead of duplicating this literal "=======================" 4 times.(ôÆõÍúÿÿÿÿ
+T
+squid:S106V"9Replace this use of System.out or System.err by a logger.(ıØ±üÿÿÿÿ
+O
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(Ô¸Üï
+P
+squid:S106•"9Replace this use of System.out or System.err by a logger.(»¹°
+Œsquid:UselessImportCheck"iRemove this unused import 'by.javatr.yudenok.repository.impl.magazineMatch.ByMagazineTitleSpecification'.(ö¸í&
+msquid:UselessImportCheck"DRemove this unused import 'by.javatr.yudenok.service.SorterService'.(úŸºËúÿÿÿÿ
+Qsquid:S1141y"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+lsquid:S1192X"UDefine a constant instead of duplicating this literal "Invalid specificator" 3 times.(ßŸí
+\
+squid:S106…"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8¡‰áÅ²-
+O
+squid:S106K"9Replace this use of System.out or System.err by a logger.(‹ñõ’
+O
+squid:S106{"9Replace this use of System.out or System.err by a logger.(šÉÎÖ
+O
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(ÂäÕ
+O
+squid:S106:"9Replace this use of System.out or System.err by a logger.(½–çÆ
+squid:UselessImportCheck"[Remove this unused import 'by.javatr.yudenok.service.impl.sort.magazine.MagazineTitleSort'.(Ÿ˜ò
+…squid:UselessImportCheck"aRemove this unused import 'by.javatr.yudenok.service.impl.sort.magazine.MagazinePagesAmountSort'.(¼¿¨€
+|squid:UselessImportCheck"SRemove this unused import 'by.javatr.yudenok.service.impl.sort.book.BookTitleSort'.(Ù¬ßšúÿÿÿÿ
