@@ -15,7 +15,7 @@
       </xs:element>
       <xs:element name="filling">
         <xs:simpleType>
-        <xs:restriction base="xs:string">
+        <xs:restriction base="xs:boolean">
           <xs:enumeration value="true"/>
           <xs:enumeration value="false"/>
         </xs:restriction>

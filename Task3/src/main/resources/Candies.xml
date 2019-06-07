@@ -7,7 +7,7 @@
         <energy>630</energy>
         <candyType>
             <type>CHOCOLATE</type>
-            <filling>false</filling>
+            <filling>true</filling>
         </candyType>
         <ingredients>
             <ingredient unit="mg">
@@ -26,6 +26,33 @@
         </value>
         <producer country="CHE">
             <enterprise>Lindt</enterprise>
+        </producer>
+    </candy>
+
+    <candy id="2">
+        <title>Konafetto</title>
+        <energy>540</energy>
+        <candyType>
+            <type>CARAMEL</type>
+            <filling>false</filling>
+        </candyType>
+        <ingredients>
+            <ingredient unit="g">
+                <quantity>10</quantity>
+                <name>sugar</name>
+            </ingredient>
+            <ingredient unit="g">
+                <quantity>15</quantity>
+                <name>cacao</name>
+            </ingredient>
+        </ingredients>
+        <value unit="kg">
+            <fat>4.3</fat>
+            <protein>33</protein>
+            <carbohydrates>53</carbohydrates>
+        </value>
+        <producer country="UKR">
+            <enterprise>Roshan</enterprise>
         </producer>
     </candy>
 </candies>

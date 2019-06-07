@@ -3,10 +3,12 @@ package by.javatr.yudenok.bean;
 import by.javatr.yudenok.bean.wrapper.Ingredients;
 
 import javax.xml.bind.annotation.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "candy", propOrder = {"id","title","energy","candyType","ingredients","value","producer"})
+@XmlType(name = "candy", propOrder = {"id","title","energy","candyType","ingredients","ingredient","value","producer"})
 public class Candy {
     @XmlAttribute
     private String id;
@@ -17,11 +19,13 @@ public class Candy {
     @XmlElement
     private CandyType candyType = new CandyType();
     @XmlElementRef
-    private Ingredients ingredients = new Ingredients();
-    @XmlElementRef
     private Value value = new Value();
     @XmlElementRef
     private Producer producer = new Producer();
+    @XmlElementRef
+    private Ingredients ingredients = new Ingredients();
+    @XmlElement
+    private Ingredient ingredient = new Ingredient();
 
     public Candy(){
 
@@ -44,6 +48,22 @@ public class Candy {
 
     public String getTitle() {
         return title;
+    }
+
+    public Ingredients getIngredients() {
+        return ingredients;
+    }
+
+    public void setIngredients(Ingredients ingredients) {
+        this.ingredients = ingredients;
+    }
+
+    public Ingredient getIngredient() {
+        return ingredient;
+    }
+
+    public void setIngredient(Ingredient ingredient) {
+        this.ingredient = ingredient;
     }
 
     public void setTitle(String title) {
@@ -74,16 +94,12 @@ public class Candy {
         this.value = value;
     }
 
-    public Ingredients getIngredients() {
-        return ingredients;
-    }
-
-    public void setIngredients(Ingredients ingredients) {
-        this.ingredients = ingredients;
-    }
-
     public Producer getProducer() {
         return producer;
+    }
+
+    public void setIngredientToIngredients(Ingredient ingredient){
+        this.ingredients.addIngredient(ingredient);
     }
 
     public void setProducer(Producer producer) {

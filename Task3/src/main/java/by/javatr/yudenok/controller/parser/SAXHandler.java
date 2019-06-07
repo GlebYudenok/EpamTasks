@@ -1,8 +1,6 @@
 package by.javatr.yudenok.controller.parser;
 
 import by.javatr.yudenok.bean.*;
-import by.javatr.yudenok.bean.wrapper.Ingredients;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -10,25 +8,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SAXHandler extends DefaultHandler {
-    List<Candy> candyList = new ArrayList<>();
-    Ingredients ingredients = new Ingredients();
-    Ingredient ingredient = null;
-    CandyType candyType = null;
-    Producer producer = null;
-    Candy candy = null;
-    String content = null;
-    Value value = null;
+    private List<Candy> candyList = new ArrayList<>();
+    private Ingredient ingredient = null;
+    private CandyType candyType = null;
+    private Producer producer = null;
+    private Candy candy = null;
+    private String content = null;
+    private Value value = null;
 
     public List<Candy> getCandyList() {
         return candyList;
     }
 
-    public void setCandyList(List<Candy> candyList) {
-        this.candyList = candyList;
-    }
-
     @Override
-    public void startElement(String uri, String localName, String qName, Attributes attributes){
+    public void startElement(String uri, String localName, String qName, Attributes attributes) {
 
         switch (qName) {
             case "candy":
@@ -38,25 +31,23 @@ public class SAXHandler extends DefaultHandler {
             case "ingredient":
                 ingredient = new Ingredient();
                 ingredient.setUnit(attributes.getValue("unit"));
-                ingredients.addIngredient(ingredient);
-                candy.setIngredients(ingredients);
-                break;
-            case "producer":
-                producer = new Producer();
-                producer.setCountry(attributes.getValue("country"));
-                candy.setProducer(producer);
                 break;
             case "value":
                 value = new Value();
                 value.setUnit(attributes.getValue("unit"));
-                candy.setValue(value);
                 break;
+            case "producer":
+                producer = new Producer();
+                producer.setCountry(attributes.getValue("country"));
+                break;
+                default:
+                    //exception
         }
     }
 
     @Override
-    public void endElement(String uri, String localName, String qName){
-        switch (qName){
+    public void endElement(String uri, String localName, String qName) {
+        switch (qName) {
             case "candy":
                 candyList.add(candy);
                 break;
@@ -66,11 +57,42 @@ public class SAXHandler extends DefaultHandler {
             case "energy":
                 candy.setEnergy(Integer.parseInt(content));
                 break;
+            case "filling":
+                candyType.setFilling(Boolean.valueOf(content));
+                candy.setCandyType(candyType);
+                break;
+            case "type":
+                candyType = new CandyType();
+                candyType.setType(TypeOfCandy.valueOf(content));
+                break;
+            case "name":
+                ingredient.setName(content);
+                candy.setIngredientToIngredients(ingredient);
+                break;
+            case "quantity":
+                ingredient.setQuantity(Double.parseDouble(content));
+                break;
+            case "fat":
+                value.setFat(Double.parseDouble(content));
+                break;
+            case "protein":
+                value.setProtein(Double.parseDouble(content));
+                break;
+            case "carbohydrates":
+                value.setCarbohydrates(Double.parseDouble(content));
+                candy.setValue(value);
+                break;
+            case "enterprise":
+                producer.setEnterprise(content);
+                candy.setProducer(producer);
+                break;
+                default:
+                    //exception
         }
     }
 
     @Override
-    public void characters(char []ch, int start, int length){
+    public void characters(char[] ch, int start, int length) {
         content = String.copyValueOf(ch, start, length).trim();
     }
 }

@@ -27,7 +27,6 @@ public class SAXParsers implements XMLParser {
         List<Candy> l = new ArrayList<>();
         for (Candy candy:
                 handler.getCandyList()) {
-            System.out.println(candy);
             l.add(candy);
         }
         return l;
