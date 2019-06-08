@@ -15,18 +15,49 @@ import java.util.List;
 
 public class StAXParser implements XMLParser {
 
-    List<Candy> candyList = new ArrayList<>();
-    Ingredient ingredient = null;
-    CandyType candyType = null;
-    Producer producer = null;
-    Candy candy = null;
-    String content = null;
-    Value value = null;
+    /**
+     * list of candies, by which will add candies.
+     */
+    private List<Candy> candyList = new ArrayList<>();
+    /**
+     * field for adding to candy object.
+     */
+    private Ingredient ingredient = null;
+    /**
+     * field for adding to candy object.
+     */
+    private CandyType candyType = null;
+    /**
+     * field for adding to candy object.
+     */
+    private Producer producer = null;
+    /**
+     * candy object int which will add other fields of this object.
+     */
+    private Candy candy = null;
+    /**
+     * field, which take datas from xml as string.
+     */
+    private String content = null;
+    /**
+     * field for adding to candy object.
+     */
+    private Value value = null;
 
+    /**
+     * parse xml-document to object via StAX, and do it line by line.
+     * @param path path of file which will parse
+     * @return list of object which will parse
+     * @throws FileNotFoundException exception if path is wronng
+     * @throws XMLStreamException xml exception
+     */
     @Override
-    public List<Candy> parseXML(String path) throws FileNotFoundException, XMLStreamException {
-        XMLInputFactory xmlInputFactory = XMLInputFactory.newFactory();
-        XMLStreamReader xmlStreamReader = xmlInputFactory.createXMLStreamReader(new FileReader(path));
+    public List<Candy> parseXML(final String path) throws
+            FileNotFoundException, XMLStreamException {
+        XMLInputFactory xmlInputFactory =
+                XMLInputFactory.newFactory();
+        XMLStreamReader xmlStreamReader =
+                xmlInputFactory.createXMLStreamReader(new FileReader(path));
 
         while (xmlStreamReader.hasNext()) {
             int event = xmlStreamReader.next();
@@ -40,7 +71,8 @@ public class StAXParser implements XMLParser {
                             break;
                         case "ingredient":
                             ingredient = new Ingredient();
-                            ingredient.setUnit(xmlStreamReader.getAttributeValue(0));
+                            ingredient.setUnit(
+                                    xmlStreamReader.getAttributeValue(0));
                             break;
                         case "value":
                             value = new Value();
@@ -48,7 +80,8 @@ public class StAXParser implements XMLParser {
                             break;
                         case "producer":
                             producer = new Producer();
-                            producer.setCountry(xmlStreamReader.getAttributeValue(0));
+                            producer.setCountry(
+                                    xmlStreamReader.getAttributeValue(0));
                             break;
                     }
                     break;
@@ -96,7 +129,7 @@ public class StAXParser implements XMLParser {
                             break;
                         case "foundingDate":
                             Calendar calendar = Calendar.getInstance();
-                            String strs[] = content.split("-");
+                            String[] strs = content.split("-");
 
                             calendar.set(Integer.parseInt(strs[0]),
                                     Integer.parseInt(strs[1]),

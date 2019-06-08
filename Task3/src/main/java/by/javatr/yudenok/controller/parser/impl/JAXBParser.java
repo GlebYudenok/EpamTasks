@@ -12,8 +12,16 @@ import java.io.File;
 import java.util.List;
 
 public class JAXBParser implements XMLParser {
+
+     /**
+     * function that parse from xml-document to object
+     * via JAXB.
+     * @param path path of file which will parse
+     * @return list of objects
+     * @throws ParserException exception if in file will invalid data
+     */
     @Override
-    public List<Candy> parseXML(String path) throws ParserException {
+    public List<Candy> parseXML(final String path) throws ParserException {
         File file = new File(path);
 
         JAXBContext jaxbContext = null;

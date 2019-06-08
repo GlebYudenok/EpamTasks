@@ -13,24 +13,41 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ingredients", propOrder = {"ingredient"})
 public class Ingredients {
+
+    /**
+     * creating arraylist of object.
+     */
     private List<Ingredient> ingredient = new ArrayList<>();
 
+    /**
+     * getter.
+     * @return list of elements
+     */
     public List<Ingredient> getIngredients() {
         return ingredient;
     }
 
-    public void setIngredients(List<Ingredient> ingredients) {
+    /**
+     * setter.
+     * @param ingredients list of elements
+     */
+    public void setIngredients(final List<Ingredient> ingredients) {
         this.ingredient = ingredients;
     }
 
-    public void addIngredient(Ingredient ingredient){
+    /**
+     * add value to collection.
+     * @param ingredient value for adding
+     */
+    public void addIngredient(final Ingredient ingredient) {
         this.ingredient.add(ingredient);
     }
 
     @Override
     public String toString() {
-        return "Ingredients{" +
-                "ingredients=" + ingredient +
-                '}';
+        return "Ingredients{"
+                + "ingredients="
+                + ingredient
+                + '}';
     }
 }

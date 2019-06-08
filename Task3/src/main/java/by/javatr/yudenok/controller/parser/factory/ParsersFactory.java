@@ -7,9 +7,22 @@ import by.javatr.yudenok.controller.parser.impl.JAXBParser;
 import by.javatr.yudenok.controller.parser.impl.SAXParsers;
 import by.javatr.yudenok.controller.parser.impl.StAXParser;
 
-public class ParsersFactory {
+public final class ParsersFactory {
 
-    public static XMLParser parseXML(ParserKinds parserKinds){
+    /**
+     * private constructor.
+     */
+    private ParsersFactory() {
+
+    }
+
+    /**
+     * simple factory, by which return
+     * object depends of enumeration field.
+     * @param parserKinds enumeration type field
+     * @return one of parsers which implements interface
+     */
+    public static XMLParser parseXML(final ParserKinds parserKinds) {
         XMLParser parser = null;
 
         switch (parserKinds) {
@@ -25,8 +38,6 @@ public class ParsersFactory {
             case StAX:
                 parser = new StAXParser();
                 break;
-            default:
-                //exception
         }
         return parser;
     }

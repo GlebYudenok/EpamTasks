@@ -6,11 +6,27 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 
-public class CandiesPrinter {
+public final class CandiesPrinter {
 
-    private static final Logger LOGGER = LogManager.getLogger(CandiesPrinter.class);
+    /**
+     * logger, in which will print info about
+     * parsing file and print toString of objects.
+     */
+    private static final Logger LOGGER =
+            LogManager.getLogger(CandiesPrinter.class);
 
-    public static void printInfo(List<Candy> candies){
+    /**
+     * private constructor.
+     */
+    private CandiesPrinter() {
+
+    }
+
+    /**
+     * write to logfile.
+     * @param candies
+     */
+    public static void printInfo(final List<Candy> candies) {
         candies.forEach(LOGGER::info);
     }
 }

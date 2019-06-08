@@ -1,10 +1,11 @@
 package by.javatr.yudenok.controller.parser.impl;
 
-import by.javatr.yudenok.exception.ParserException;
 import org.junit.Test;
 import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
 
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -23,17 +24,17 @@ public class SAXParsersTest {
         saxParsers.parseXML(paths.get(0)).forEach(System.out::println);
     }
 
-    @Test(expected = ParserException.class)
+    @Test(expected = SAXParseException.class)
     public void parseEmptyFile() throws IOException, SAXException, ParserConfigurationException {
         saxParsers.parseXML(paths.get(1));
     }
 
-    @Test(expected = ParserException.class)
+    @Test(expected = NullPointerException.class)
     public void parseWrongFile() throws IOException, SAXException, ParserConfigurationException {
         saxParsers.parseXML(paths.get(2));
     }
 
-    @Test(expected = ParserException.class)
+    @Test(expected = FileNotFoundException.class)
     public void parseWrongPath() throws IOException, SAXException, ParserConfigurationException {
         saxParsers.parseXML(paths.get(3));
     }

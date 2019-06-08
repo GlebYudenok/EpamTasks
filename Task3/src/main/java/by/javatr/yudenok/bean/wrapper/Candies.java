@@ -11,31 +11,52 @@ import java.util.List;
 @XmlType(name = "candies", propOrder = {"candy"})
 public class Candies {
 
-    public static final Candies instance = new Candies();
+    /**
+     * singletone.
+     */
+    public static final Candies INSTANCE = new Candies();
 
-    public Candies(){
+    /**
+     * default constructor.
+     */
+    public Candies() {
 
     }
 
+    /**
+     * creating array list of candies.
+     */
     @XmlElement
     private List<Candy> candy = new ArrayList<>();
 
-    public Candies(List<Candy> candyList) {
+    /**
+     * constructor.
+     * @param candyList list of candies
+     */
+    public Candies(final List<Candy> candyList) {
         this.candy = candyList;
     }
 
+    /**
+     * simple getter for get value.
+     * @return list of candies
+     */
     public List<Candy> getCandyList() {
         return candy;
     }
 
-    public void setCandyList(List<Candy> candyList) {
+    /**
+     * simple setter for set value.
+     * @param candyList list of candies
+     */
+    public void setCandyList(final List<Candy> candyList) {
         this.candy = candyList;
     }
 
     @Override
     public String toString() {
-        return "Candies{" +
-                "candy=" + candy +
-                '}';
+        return "Candies{"
+                + "candy=" + candy
+                + '}';
     }
 }

@@ -17,18 +17,26 @@ import java.text.ParseException;
 
 public class Controller {
 
-    private XMLParser parser = null;
+    /**
+     * logger which write info about errors and result of parsing.
+     */
     private final static Logger LOGGER = LogManager.getLogger(Controller.class);
 
-    public void executeTask(ParserKinds parserKinds, String path){
-
+    /**
+     * perform instructions of parsing.
+     * @param parserKinds enum type, choosing tool which will parse document
+     * @param path path of file, which need to parse
+     */
+    public void executeTask(final ParserKinds parserKinds, final String path) {
+        XMLParser parser = null;
         LOGGER.info("Parse via " + parserKinds + "...");
         parser = ParsersFactory.parseXML(parserKinds);
         try {
             CandiesPrinter.printInfo(parser.parseXML(path));
-        } catch (JAXBException | ParserException | ParserConfigurationException | IOException | SAXException | XMLStreamException | ParseException e) {
+        } catch (JAXBException | ParserException
+                | ParserConfigurationException | IOException
+                | SAXException | XMLStreamException | ParseException e) {
             LOGGER.error(e);
-            System.err.println("Error");
         }
     }
 }

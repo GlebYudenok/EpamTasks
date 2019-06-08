@@ -17,22 +17,22 @@ public class DOMParserTest {
             "wrongPath.xml");
 
     @Test
-    public void parseIdeal() throws ParserException, ParseException {
+    public void parseIdeal() throws ParserException {
         domParser.parseXML(paths.get(0)).forEach(System.out::println);
     }
 
     @Test(expected = ParserException.class)
-    public void parseEmptyFile() throws ParserException, ParseException {
+    public void parseEmptyFile() throws ParserException {
         domParser.parseXML(paths.get(1));
     }
 
     @Test(expected = ParserException.class)
-    public void parseWrongFile() throws ParserException, ParseException {
+    public void parseWrongFile() throws ParserException {
         domParser.parseXML(paths.get(2));
     }
 
     @Test(expected = ParserException.class)
-    public void parseWrongPath() throws ParserException, ParseException {
+    public void parseWrongPath() throws ParserException {
         domParser.parseXML(paths.get(3));
     }
 }

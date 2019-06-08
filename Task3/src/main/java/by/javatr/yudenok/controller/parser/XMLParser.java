@@ -12,5 +12,20 @@ import java.text.ParseException;
 import java.util.List;
 
 public interface XMLParser {
-    List<Candy> parseXML(String path) throws JAXBException, ParserException, ParserConfigurationException, IOException, SAXException, XMLStreamException, ParseException;
+    /**
+     * parse xml element via different kinds of parsers.
+     * @param path path of file which will parse
+     * @return list of parsed objects
+     * @throws JAXBException JAXB parser exception
+     * @throws ParserException parser exception
+     * @throws ParserConfigurationException configuration parser exception
+     * @throws IOException exception linked with file problem
+     * @throws SAXException SAX parser exception
+     * @throws XMLStreamException stream exceptions
+     * @throws ParseException parse exception
+     */
+    List<Candy> parseXML(String path) throws JAXBException,
+            ParserException, ParserConfigurationException,
+            IOException, SAXException, XMLStreamException,
+            ParseException;
 }

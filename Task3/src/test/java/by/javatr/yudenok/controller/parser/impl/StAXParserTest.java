@@ -6,6 +6,7 @@ import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLStreamException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -24,17 +25,17 @@ public class StAXParserTest {
         stAXParser.parseXML(paths.get(0)).forEach(System.out::println);
     }
 
-    @Test(expected = ParserException.class)
+    @Test(expected = XMLStreamException.class)
     public void parseEmptyFile() throws IOException, XMLStreamException {
         stAXParser.parseXML(paths.get(1));
     }
 
-    @Test(expected = ParserException.class)
+    @Test(expected = NullPointerException.class)
     public void parseWrongFile() throws IOException, XMLStreamException {
         stAXParser.parseXML(paths.get(2));
     }
 
-    @Test(expected = ParserException.class)
+    @Test(expected = FileNotFoundException.class)
     public void parseWrongPath() throws IOException, XMLStreamException {
         stAXParser.parseXML(paths.get(3));
     }

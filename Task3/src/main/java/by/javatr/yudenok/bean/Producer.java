@@ -5,57 +5,103 @@ import java.util.Calendar;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "producer", propOrder = {"country","enterprise", "foundingDate"})
+@XmlType(name = "producer", propOrder = {"country", "enterprise",
+        "foundingDate"})
 public class Producer {
 
+    /**
+     * string field.
+     */
     @XmlAttribute
     private String country;
+    /**
+     * string field.
+     */
     @XmlElement
     private String enterprise;
+    /**
+     * instance of Calendar class as field.
+     */
     @XmlElement
-    Calendar foundingDate = Calendar.getInstance();
+    private Calendar foundingDate = Calendar.getInstance();
 
-    public Producer(String country, String enterprise) {
+    /**
+     * constructor with all fields.
+     * @param country string
+     * @param enterprise string
+     * @param foundingDate calendar
+     */
+    public Producer(final String country, final String enterprise,
+                    final Calendar foundingDate) {
         this.country = country;
         this.enterprise = enterprise;
+        this.foundingDate = foundingDate;
     }
 
-    public Producer(){
+    /**
+     * default empty constructor.
+     */
+    public Producer() {
 
     }
 
+    /**
+     * getter.
+     * @return string
+     */
     public String getCountry() {
         return country;
     }
 
-    public void setCountry(String country) {
+    /**
+     * setter.
+     * @param country string value
+     */
+    public void setCountry(final String country) {
         this.country = country;
     }
 
+    /**
+     * getter.
+     * @return string
+     */
     public String getEnterprise() {
         return enterprise;
     }
 
-    public void setEnterprise(String enterprise) {
+    /**
+     * setter.
+     * @param enterprise string value
+     */
+    public void setEnterprise(final String enterprise) {
         this.enterprise = enterprise;
     }
 
+    /**
+     * getter.
+     * @return calendar ad date format
+     */
     public Calendar getFoundingDate() {
         return foundingDate;
     }
 
-    public void setFoundingDate(Calendar foundingDate) {
+    /**
+     * setter.
+     * @param foundingDate calendar instance
+     * in several date format
+     */
+    public void setFoundingDate(final Calendar foundingDate) {
         this.foundingDate = foundingDate;
     }
 
     @Override
     public String toString() {
-        return "Producer{" +
-                "country='" + country + '\'' +
-                ", enterprise='" + enterprise + '\'' +
-                ", foundingDate=" + foundingDate.get(Calendar.YEAR) +
-                "-"  + foundingDate.get(Calendar.MONTH) + "-" +
-                foundingDate.get(Calendar.DAY_OF_MONTH) +
-                '}';
+        return "Producer{"
+                + "country='" + country + '\''
+                + ", enterprise='" + enterprise + '\''
+                + ", foundingDate=" + foundingDate.get(Calendar.YEAR)
+                + "-"  + foundingDate.get(Calendar.MONTH)
+                + "-" + foundingDate.get(Calendar.DAY_OF_MONTH)
+                + '}';
     }
 }

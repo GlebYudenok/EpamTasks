@@ -15,20 +15,27 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
 public class DOMParser implements XMLParser {
 
+    /**
+     * function that parse from xml-document to object
+     * via DOM.
+     * @param path path of file which will parse
+     * @return list of objects
+     * @throws ParserException exception if in file will invalid data
+     */
     @Override
-    public List<Candy> parseXML(String path) throws ParserException, ParseException {
+    public List<Candy> parseXML(final String path) throws ParserException {
 
         List<Candy> candies = new ArrayList<>();
 
         File file = new File(path);
-        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilderFactory documentBuilderFactory =
+                DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = null;
         try {
             documentBuilder = documentBuilderFactory.newDocumentBuilder();
@@ -43,19 +50,20 @@ public class DOMParser implements XMLParser {
             throw new ParserException();
         }
 
-        NodeList candyNodeList = document.getDocumentElement().getElementsByTagName("candy");
+        NodeList candyNodeList =
+                document.getDocumentElement().getElementsByTagName("candy");
 
-        for(int i = 0; i < candyNodeList.getLength(); i++){
+        for(int i = 0; i < candyNodeList.getLength(); i++) {
             Candy candy = new Candy();
             Node candyNode = candyNodeList.item(i);
-            if(candyNode instanceof Element){
+            if(candyNode instanceof Element) {
                 candy.setId(candyNode.getAttributes().getNamedItem("id").getNodeValue());
                 NodeList nameNodeList = candyNode.getChildNodes();
-                for(int j = 0; j < nameNodeList.getLength(); j++){
+                for(int j = 0; j < nameNodeList.getLength(); j++) {
                     Node node = nameNodeList.item(j);
-                    if(node instanceof Element){
+                    if(node instanceof Element) {
                         String content = node.getLastChild().getNodeValue().trim();
-                        switch (node.getNodeName()){
+                        switch (node.getNodeName()) {
                             case "title":
                                 candy.setTitle(content);
                                 break;
@@ -68,12 +76,12 @@ public class DOMParser implements XMLParser {
 
                                 CandyType candyType = new CandyType();
 
-                                for(int k = 0; k < candyTypeNodeList.getLength(); k++){
+                                for(int k = 0; k < candyTypeNodeList.getLength(); k++) {
                                     Node node1 = candyTypeNodeList.item(k);
-                                    if(node1 instanceof Element){
+                                    if(node1 instanceof Element) {
 
                                         String content1 = node1.getLastChild().getNodeValue().trim();
-                                        switch (node1.getNodeName()){
+                                        switch (node1.getNodeName()) {
                                             case "type":
                                                 candyType.setType(TypeOfCandy.valueOf(content1));
                                                 break;
@@ -94,20 +102,20 @@ public class DOMParser implements XMLParser {
 
                                 Ingredients ingredients = new Ingredients();
 
-                                for(int k = 0; k < ingredienList.getLength(); k++){
+                                for(int k = 0; k < ingredienList.getLength(); k++) {
                                     Node node1 = ingredienList.item(k);
-                                    if(node1 instanceof Element){
+                                    if(node1 instanceof Element) {
                                         Ingredient ingredient = new Ingredient();
                                         ingredient.setUnit(node1.getAttributes().getNamedItem("unit").getNodeValue());
 
                                         NodeList ingredList = node1.getChildNodes();
 
-                                        for(int l = 0; l < ingredList.getLength(); l++){
+                                        for(int l = 0; l < ingredList.getLength(); l++) {
                                             Node node2 = ingredList.item(l);
-                                            if(node2 instanceof Element){
+                                            if(node2 instanceof Element) {
                                                 String content1 = node2.getLastChild().getNodeValue();
 
-                                                switch (node2.getNodeName()){
+                                                switch (node2.getNodeName()) {
                                                     case "quantity":
                                                         ingredient.setQuantity(Double.parseDouble(content1));
                                                         break;
@@ -126,16 +134,16 @@ public class DOMParser implements XMLParser {
                                 candy.setIngredients(ingredients);
                             }
                             break;
-                            case "value":{
+                            case "value": {
                                 Value value = new Value();
                                 value.setUnit(node.getAttributes().getNamedItem("unit").getNodeValue());
 
                                 NodeList valueNodeList = node.getChildNodes();
-                                for(int k = 0; k < valueNodeList.getLength(); k++){
+                                for (int k = 0; k < valueNodeList.getLength(); k++) {
                                     Node valueNode = valueNodeList.item(k);
-                                    if(valueNode instanceof Element){
+                                    if (valueNode instanceof Element) {
                                         String content1 = valueNode.getLastChild().getNodeValue();
-                                        switch (valueNode.getNodeName()){
+                                        switch (valueNode.getNodeName()) {
                                             case "fat":
                                                 value.setFat(Double.parseDouble(content1));
                                                 break;
@@ -159,16 +167,16 @@ public class DOMParser implements XMLParser {
                                 producer.setCountry(node.getAttributes().getNamedItem("country").getNodeValue());
 
                                 NodeList nodeList = node.getChildNodes();
-                                for(int k = 0; k < nodeList.getLength(); k++){
+                                for(int k = 0; k < nodeList.getLength(); k++) {
                                     Node node1 = nodeList.item(k);
-                                    if(node1 instanceof Element){
+                                    if(node1 instanceof Element) {
                                         String content1 = node1.getLastChild().getNodeValue();
-                                        if(node1.getNodeName() == "enterprise"){
+                                        if(node1.getNodeName() == "enterprise") {
                                             producer.setEnterprise(content1);
                                         }
                                         if(node1.getNodeName() == "foundingDate") {
                                             Calendar calendar = Calendar.getInstance();
-                                            String strs[] = content1.split("-");
+                                            String [] strs = content1.split("-");
 
                                             calendar.set(Integer.parseInt(strs[0]),
                                                     Integer.parseInt(strs[1]),

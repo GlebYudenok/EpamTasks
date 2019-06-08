@@ -22,7 +22,9 @@ class ControllerTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"DOM", "SAX", "StAX", "JAXB"})
-    public void executeTask(String type) throws ParserConfigurationException, ParserException, SAXException, IOException, JAXBException, XMLStreamException, ParseException {
+    public void executeTask(String type) throws ParserConfigurationException,
+            ParserException, SAXException, IOException,
+            JAXBException, XMLStreamException, ParseException {
         XMLParser parser= ParsersFactory.parseXML(ParserKinds.valueOf(type));
         CandiesPrinter.printInfo(parser.parseXML("src/test/resources/Candies.xml"));
     }
