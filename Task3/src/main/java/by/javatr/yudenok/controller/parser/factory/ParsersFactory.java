@@ -1,6 +1,7 @@
 package by.javatr.yudenok.controller.parser.factory;
 
-import by.javatr.yudenok.controller.parser.*;
+import by.javatr.yudenok.controller.parser.ParserKinds;
+import by.javatr.yudenok.controller.parser.XMLParser;
 import by.javatr.yudenok.controller.parser.impl.DOMParser;
 import by.javatr.yudenok.controller.parser.impl.JAXBParser;
 import by.javatr.yudenok.controller.parser.impl.SAXParsers;

@@ -1,12 +1,7 @@
 package by.javatr.yudenok.bean;
 
 import javax.xml.bind.annotation.*;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
-import java.util.function.Predicate;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)

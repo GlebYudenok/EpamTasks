@@ -10,8 +10,6 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.*;
-
 public class StAXParserTest {
     public StAXParser stAXParser = new StAXParser();
 
@@ -20,23 +18,24 @@ public class StAXParserTest {
             "src\\test\\resources\\WrongCandies.xml",
             "wrongPath.xml");
 
+
     @Test
-    public void parseIdeal() throws IOException, SAXException, ParserConfigurationException, XMLStreamException {
+    public void parseIdeal() throws IOException, XMLStreamException {
         stAXParser.parseXML(paths.get(0)).forEach(System.out::println);
     }
 
     @Test(expected = ParserException.class)
-    public void parseEmptyFile() throws IOException, SAXException, ParserConfigurationException, XMLStreamException {
+    public void parseEmptyFile() throws IOException, XMLStreamException {
         stAXParser.parseXML(paths.get(1));
     }
 
     @Test(expected = ParserException.class)
-    public void parseWrongFile() throws IOException, SAXException, ParserConfigurationException, XMLStreamException {
+    public void parseWrongFile() throws IOException, XMLStreamException {
         stAXParser.parseXML(paths.get(2));
     }
 
     @Test(expected = ParserException.class)
-    public void parseWrongPath() throws IOException, SAXException, ParserConfigurationException, XMLStreamException {
+    public void parseWrongPath() throws IOException, XMLStreamException {
         stAXParser.parseXML(paths.get(3));
     }
 }

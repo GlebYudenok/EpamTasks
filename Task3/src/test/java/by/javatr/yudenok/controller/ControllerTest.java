@@ -1,12 +1,10 @@
 package by.javatr.yudenok.controller;
 
-import by.javatr.yudenok.bean.TypeOfCandy;
 import by.javatr.yudenok.controller.parser.ParserKinds;
 import by.javatr.yudenok.controller.parser.XMLParser;
 import by.javatr.yudenok.controller.parser.factory.ParsersFactory;
 import by.javatr.yudenok.exception.ParserException;
 import by.javatr.yudenok.printer.CandiesPrinter;
-import org.junit.Assert;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.junit.runner.RunWith;
@@ -18,8 +16,6 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLStreamException;
 import java.io.IOException;
 import java.text.ParseException;
-import java.util.Arrays;
-import java.util.List;
 
 @RunWith(Parameterized.class)
 class ControllerTest {

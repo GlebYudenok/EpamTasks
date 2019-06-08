@@ -3,8 +3,6 @@ package by.javatr.yudenok.bean;
 import by.javatr.yudenok.bean.wrapper.Ingredients;
 
 import javax.xml.bind.annotation.*;
-import java.util.ArrayList;
-import java.util.List;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)

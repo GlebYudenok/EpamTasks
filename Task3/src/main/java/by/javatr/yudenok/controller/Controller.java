@@ -1,6 +1,5 @@
 package by.javatr.yudenok.controller;
 
-import by.javatr.yudenok.bean.wrapper.Candies;
 import by.javatr.yudenok.controller.parser.ParserKinds;
 import by.javatr.yudenok.controller.parser.XMLParser;
 import by.javatr.yudenok.controller.parser.factory.ParsersFactory;

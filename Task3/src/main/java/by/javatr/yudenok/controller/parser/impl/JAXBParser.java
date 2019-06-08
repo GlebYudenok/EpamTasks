@@ -1,6 +1,6 @@
 package by.javatr.yudenok.controller.parser.impl;
 
-import by.javatr.yudenok.bean.*;
+import by.javatr.yudenok.bean.Candy;
 import by.javatr.yudenok.bean.wrapper.Candies;
 import by.javatr.yudenok.controller.parser.XMLParser;
 import by.javatr.yudenok.exception.ParserException;
@@ -8,7 +8,7 @@ import by.javatr.yudenok.exception.ParserException;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
-import java.io.*;
+import java.io.File;
 import java.util.List;
 
 public class JAXBParser implements XMLParser {
