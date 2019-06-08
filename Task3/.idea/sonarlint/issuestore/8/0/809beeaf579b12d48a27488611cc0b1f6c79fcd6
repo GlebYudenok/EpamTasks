@@ -1,0 +1,13 @@
+
+]squid:UselessImportCheck"9Remove this unused import 'by.javatr.yudenok.bean.Candy'.(Îƒ½Å
+ysquid:UselessImportCheck"PRemove this unused import 'by.javatr.yudenok.controller.parser.impl.SAXParsers'.(Í„Ø ÿÿÿÿÿ
+¦%squid:RedundantThrowsDeclarationCheck"uRemove the declaration of thrown exception 'javax.xml.bind.JAXBException', as it cannot be thrown from method's body.(Ş¤ù
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+¢%squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'org.xml.sax.SAXException', as it cannot be thrown from method's body.(Ş¤ù
+Fsquid:S1068"*Remove this unused "LOGGER" private field.( ß„úÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ş¤ù
+¹%squid:RedundantThrowsDeclarationCheck"‡Remove the declaration of thrown exception 'javax.xml.parsers.ParserConfigurationException', as it cannot be thrown from method's body.(Ş¤ù
+¶%squid:RedundantThrowsDeclarationCheck"„Remove the declaration of thrown exception 'by.javatr.yudenok.exception.ParserException', as it cannot be thrown from method's body.(Ş¤ù
+tsquid:UselessImportCheck"PRemove this unused import 'by.javatr.yudenok.controller.parser.impl.JAXBParser'.(ÁÊ«Ğ
+tsquid:UselessImportCheck"KRemove this unused import 'by.javatr.yudenok.controller.parser.SAXHandler'.(É‘›Âùÿÿÿÿ
+‡squid:S1192"iDefine a constant instead of duplicating this literal "Task3\\src\\main\\resources\\Candies.xml" 4 times.(‰©£é8ªŸß³-
