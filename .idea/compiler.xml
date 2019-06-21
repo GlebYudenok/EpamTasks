@@ -7,14 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Task1" />
+        <module name="DemoExampleMultithreading" />
+        <module name="Task4" />
         <module name="Task3" />
         <module name="Task2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DemoExampleMultithreading" target="8" />
       <module name="Task1" target="8" />
       <module name="Task2" target="8" />
       <module name="Task3" target="8" />
+      <module name="Task4" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

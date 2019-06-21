@@ -1,6 +1,2 @@
 
-ssquid:S1450"URemove the "parser" field and declare it as a local variable in the relevant methods.(ë€Ø8„ğÛü²-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(øô¯8„ğÛü²-
-lsquid:UselessImportCheck"CRemove this unused import 'by.javatr.yudenok.bean.wrapper.Candies'.(ıäÊøÿÿÿÿ
-psquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(˜Áá[8„ğÛü²-
+psquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(˜Áá[8„ğÛü²-

@@ -1,5 +1,0 @@
-
-{squid:UselessImportCheck"KRemove this unused import 'by.javatr.yudenok.controller.parser.SAXHandler'.(É‘›Âùÿÿÿÿ8Ú¥²ý²-
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Þ¢ÌÔ8¡®´ý²-
-Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(×ÏÁ¢ùÿÿÿÿ8¨ÿ¾ý²-
-Vsquid:S1068"3Remove this unused "documentBuilder" private field.(ÚúûÍýÿÿÿÿ8ßË³ý²-

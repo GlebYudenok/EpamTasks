@@ -17,7 +17,6 @@ import javax.xml.stream.XMLStreamException;
 import java.io.IOException;
 import java.text.ParseException;
 
-@RunWith(Parameterized.class)
 class ControllerTest {
 
     @ParameterizedTest

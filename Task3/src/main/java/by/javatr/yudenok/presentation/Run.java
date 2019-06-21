@@ -7,8 +7,8 @@ public class Run {
 
     public static void main(String[] args){
         Controller controller = new Controller();
-        controller.executeTask(ParserKinds.DOM, "src\\main\\resources\\Candies.xml");
-        controller.executeTask(ParserKinds.JAXB, "src\\main\\resources\\Candies.xml");
-        controller.executeTask(ParserKinds.SAX, "src\\main\\resources\\Candies.xml");
+        controller.executeTask(ParserKinds.DOM, "Task3\\src\\main\\resources\\Candies.xml");
+        controller.executeTask(ParserKinds.JAXB, "Task3\\src\\main\\resources\\Candies.xml");
+        controller.executeTask(ParserKinds.SAX, "Task3\\src\\main\\resources\\Candies.xml");
     }
 }
