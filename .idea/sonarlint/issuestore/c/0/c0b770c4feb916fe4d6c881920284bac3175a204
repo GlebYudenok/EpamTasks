@@ -1,0 +1,2 @@
+
+¶%squid:RedundantThrowsDeclarationCheck"„Remove the declaration of thrown exception 'by.javatr.yudenok.exception.ParserException', as it cannot be thrown from method's body.(›äûÁ

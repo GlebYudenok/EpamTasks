@@ -1,0 +1,10 @@
+
+gsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(íƒÏøÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ÅÎ•îÿÿÿÿÿ
+ssquid:UselessImportCheck"PRemove this unused import 'by.javatr.yudenok.controller.parser.impl.TextParser'.(‡¡)
+ysquid:UselessImportCheck"PRemove this unused import 'by.javatr.yudenok.controller.parser.impl.WordParser'.(¿ÀÀŠþÿÿÿÿ
+bsquid:UselessImportCheck">Remove this unused import 'by.javatr.yudenok.dao.TextDAOimpl'.(Í½· 
+rsquid:UselessImportCheck"IRemove this unused import 'by.javatr.yudenok.composite.CompositeElement'.(Ùœ—Šýÿÿÿÿ
+ysquid:UselessImportCheck	"URemove this unused import 'by.javatr.yudenok.controller.parser.impl.ParagraphParser'.(¾ð¬Ý
+xsquid:UselessImportCheck
+"TRemove this unused import 'by.javatr.yudenok.controller.parser.impl.SentenceParser'.(Ë”²°

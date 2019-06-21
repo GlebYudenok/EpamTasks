@@ -1,0 +1,7 @@
+
+~squid:UselessImportCheck"SRemove this unused import 'by.javatr.yudenok.controller.validator.MatrixValidator'.(­¸­×8´óİ¶-
+msquid:UselessImportCheck"BRemove this unused import 'by.javatr.yudenok.service.FillingType'.(çççŠ8´óİ¶-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ8÷¬–Ş¶-
+esquid:UselessImportCheck":Remove this unused import 'by.javatr.yudenok.bean.Matrix'.(Î±œ¢8´óİ¶-
+}squid:UselessImportCheck"MRemove this unused import 'by.javatr.yudenok.service.factory.FillingFactory'.(ºËâòûÿÿÿÿ8´óİ¶-
