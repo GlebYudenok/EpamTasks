@@ -1,4 +1,4 @@
-package by.javatr.yudenok.example8;
+package by.javatr.yudenok.example10;
 
 public class Producer extends Thread {
     Store store;

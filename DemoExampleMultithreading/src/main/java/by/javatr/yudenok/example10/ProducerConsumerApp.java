@@ -1,4 +1,4 @@
-package by.javatr.yudenok.example8;
+package by.javatr.yudenok.example10;
 
 public class ProducerConsumerApp {
     public static void main(String[] args) {
