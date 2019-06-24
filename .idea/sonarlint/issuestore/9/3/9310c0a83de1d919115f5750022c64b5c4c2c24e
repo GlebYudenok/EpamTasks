@@ -1,0 +1,9 @@
+
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8Ïä“£¸-
+_squid:UselessImportCheck"/Remove this unused import 'java.io.FileReader'.(Â¡¢äþÿÿÿÿ8–¦Á£¸-
+“squid:UselessImportCheck	"hRemove this unused import 'org.apache.logging.log4j.core.appender.rewrite.LoggerNameLevelRewritePolicy'.(Ç»ßÞ8üÖ—£¸-
+_squid:UselessImportCheck"/Remove this unused import 'java.io.FileWriter'.(Ã‘ÅÃýÿÿÿÿ8€§¿£¸-
+psquid:S00116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÅŠÕ8éß‹£¸-
+dsquid:UselessImportCheck"9Remove this unused import 'jdk.jfr.events.FileReadEvent'.(¸µÔ·8øòš£¸-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(†•òÑþÿÿÿÿ8Åâ”¬¸-

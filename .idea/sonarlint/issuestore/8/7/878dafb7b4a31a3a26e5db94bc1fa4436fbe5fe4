@@ -1,0 +1,7 @@
+
+[
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(¹¹Ò³øÿÿÿÿ8Ÿ·„Ý·-
+ksquid:S00116"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ž³Ê8ñ¾€Ý·-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹¹Ò³øÿÿÿÿ8‹ú‰Ý·-

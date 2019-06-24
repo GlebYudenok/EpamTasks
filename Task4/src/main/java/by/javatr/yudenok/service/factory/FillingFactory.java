@@ -2,19 +2,27 @@ package by.javatr.yudenok.service.factory;
 
 import by.javatr.yudenok.service.FillingType;
 import by.javatr.yudenok.service.MatrixFiller;
+import by.javatr.yudenok.service.impl.FillMatrixFromFile;
 import by.javatr.yudenok.service.impl.FillMatrixRandom;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.core.Logger;
 
 public class FillingFactory {
 
-    public MatrixFiller fill(FillingType name) throws Exception {
+    /**
+     * selects how to fill the array.
+     * @param name enum type of method of filling
+     * @return interface reference
+     * @throws Exception exception
+     */
+    public MatrixFiller fill(final FillingType name) throws Exception {
 
         MatrixFiller matrixFiller = null;
 
         switch (name) {
             case RANDOM:
                 matrixFiller = new FillMatrixRandom();
+                break;
+            case FILE:
+                matrixFiller = new FillMatrixFromFile();
                 break;
             default:
                 throw new Exception("Error");

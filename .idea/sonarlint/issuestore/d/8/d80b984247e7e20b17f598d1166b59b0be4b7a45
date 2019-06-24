@@ -1,5 +1,9 @@
 
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾½¨šıÿÿÿÿ8îê‘Ş¶-
-\"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¸ìù«üÿÿÿÿ8‹ŒŞ¶-
-Ysquid:S2696"6Make the enclosing method "static" or remove this set.(ÿ©ÁŞıÿÿÿÿ8ò¤ÙŞ¶-
+V
+squid:S1069"9Replace this use of System.out or System.err by a logger.(“£Úó8îê‘Ş¶-
+V
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¹ØŞ’8£µ€­¸-
+\"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¸ìù«üÿÿÿÿ8‹ŒŞ¶-
+U
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ùŞ£B8Äê°¸-
+dsquid:S21424"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Äê°¸-

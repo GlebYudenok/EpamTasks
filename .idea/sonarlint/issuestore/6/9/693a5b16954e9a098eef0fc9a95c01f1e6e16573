@@ -1,0 +1,13 @@
+
+[
+squid:S106-"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ8À‘„¸-
+V
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¾®òŒ8‡É”„¸-
+dsquid:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8À‘„¸-
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ8†—„¸-
+[
+squid:S106<"9Replace this use of System.out or System.err by a logger.(Èç€«ıÿÿÿÿ8ÎŞÇ„¸-
+Xsquid:S1161'":Add the "@Override" annotation above this method signature(“–ış8éú„¸-
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø³ñ_8…®„¸-
+dsquid:S21423"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8†—„¸-

@@ -1,6 +1,10 @@
 
-8squid:S1643/"Use a StringBuilder instead.(ÈŸáªþÿÿÿÿ
-8squid:S16431"Use a StringBuilder instead.(šœÙîÿÿÿÿÿ
-=squid:S1481,"&Remove this unused "a" local variable.(®š‹á
-+squid:S1700"Rename field "matrix"(ÏãÓ
-7squid:S2129+" Remove this "String" constructor(â˜Ê”
+vsquid:S3008
+"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËèúþÿÿÿÿ8„¾ñ¬¸-
++squid:S1700"Rename field "matrix"(ÏãÓ
+?squid:S1643N"Use a StringBuilder instead.(šœÙîÿÿÿÿÿ8ÂÈ¡°¸-
+Dsquid:S1481I"&Remove this unused "a" local variable.(®š‹á8ÂÈ¡°¸-
+Vsquid:S2168"9Remove this dangerous instance of double-checked locking.(—à¼:8ŸÈó¬¸-
+>squid:S2129H" Remove this "String" constructor(â˜Ê”8ÂÈ¡°¸-
+‹ squid:ForLoopCounterChangedCheck/"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8žŒÅ°¸-
+8squid:S1643L"Use a StringBuilder instead.(ÈŸáªþÿÿÿÿ

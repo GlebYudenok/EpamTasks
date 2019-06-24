@@ -1,0 +1,9 @@
+
+Dsquid:S1170"!Make this final field static too.(§¬Ò²ùÿÿÿÿ8Â’ğú·-
+ysquid:S00116"URename this field "BID_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¬Ò²ùÿÿÿÿ8°Ìğú·-
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(•²´øÿÿÿÿ8ºÌóú·-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(†ÙÎÌ8Ë­şú·-
+Ksquid:S1604"(Make this anonymous inner class a lambda(à®Òıÿÿÿÿ8˜øúú·-
+Fsquid:S1604#"(Make this anonymous inner class a lambda(“¨—8©˜Ëƒ¸-
+usquid:UselessImportCheck"ERemove this unused import 'by.javatr.yudenok.example16.AudioChannel'.(‰¼³Íùÿÿÿÿ8Úšıú·-

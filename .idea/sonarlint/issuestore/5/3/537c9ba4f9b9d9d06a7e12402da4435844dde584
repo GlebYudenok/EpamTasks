@@ -1,0 +1,11 @@
+
+[
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ8ßÍÃƒ¸-
+isquid:S2142$"FEither re-interrupt this method or rethrow the "InterruptedException".(«­»úÿÿÿÿ8ßÍÃƒ¸-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞçÁ øÿÿÿÿ8…í´ƒ¸-
+Xsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8Ã©Êƒ¸-
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ˆ†à±ıÿÿÿÿ8û’Âƒ¸-
+[
+squid:S106!"9Replace this use of System.out or System.err by a logger.(¸Ñ»Ñıÿÿÿÿ8÷ê¿ƒ¸-

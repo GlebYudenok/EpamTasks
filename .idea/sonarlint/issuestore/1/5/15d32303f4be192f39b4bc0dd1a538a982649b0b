@@ -1,0 +1,9 @@
+
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñï™8…Ø¬ö·-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿¢ïÓûÿÿÿÿ
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Þàš¬øÿÿÿÿ8…Ø¬ö·-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8…Ø¬ö·-
+tsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¿¢ïÓûÿÿÿÿ8Ãë¶ö·-

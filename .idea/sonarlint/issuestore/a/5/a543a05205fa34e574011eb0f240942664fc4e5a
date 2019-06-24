@@ -1,7 +1,10 @@
 
-~squid:UselessImportCheck"SRemove this unused import 'by.javatr.yudenok.controller.validator.MatrixValidator'.(­¸­×8´óİ¶-
-msquid:UselessImportCheck"BRemove this unused import 'by.javatr.yudenok.service.FillingType'.(çççŠ8´óİ¶-
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ8÷¬–Ş¶-
-esquid:UselessImportCheck":Remove this unused import 'by.javatr.yudenok.bean.Matrix'.(Î±œ¢8´óİ¶-
-}squid:UselessImportCheck"MRemove this unused import 'by.javatr.yudenok.service.factory.FillingFactory'.(ºËâòûÿÿÿÿ8´óİ¶-
+squid:S106$"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ8Úå†±¸-
+Jsquid:S1612#",Replace this lambda with a method reference.(ÕÊùø8Îû€±¸-
+bsquid:UselessImportCheck	"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8Îû€±¸-
+qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ƒ¢Èı8Â»•¸-
+gsquid:UselessImportCheck"7Remove this unused import 'java.util.stream.Collector'.(ß‹ÎÓøÿÿÿÿ8°Ã„±¸-
+Vsquid:S1197""8Move the array designator from the variable to the type.(ÌÄ8Îû€±¸-
+Hsquid:S1068"*Remove this unused "LOGGER" private field.(ƒ¢Èı8Á‡±¸-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ıÛëøÿÿÿÿ8Á‡±¸-
