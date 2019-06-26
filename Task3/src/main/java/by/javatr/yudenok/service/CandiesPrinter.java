@@ -1,4 +1,4 @@
-package by.javatr.yudenok.printer;
+package by.javatr.yudenok.service;
 
 import by.javatr.yudenok.bean.Candy;
 import org.apache.logging.log4j.LogManager;

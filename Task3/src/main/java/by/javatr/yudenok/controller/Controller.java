@@ -4,7 +4,7 @@ import by.javatr.yudenok.controller.parser.ParserKinds;
 import by.javatr.yudenok.controller.parser.XMLParser;
 import by.javatr.yudenok.controller.parser.factory.ParsersFactory;
 import by.javatr.yudenok.exception.ParserException;
-import by.javatr.yudenok.printer.CandiesPrinter;
+import by.javatr.yudenok.service.CandiesPrinter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;

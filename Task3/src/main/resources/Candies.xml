@@ -2,7 +2,7 @@
 
 <candies  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:noNamespaceSchemaLocation="Candies.xsd">
-    <candy id="1">
+    <candy id="ID-1">
         <title>Lindor</title>
         <energy>630</energy>
         <candyType>
@@ -30,7 +30,7 @@
         </producer>
     </candy>
 
-    <candy id="2">
+    <candy id="ID-2">
         <title>Konafetto</title>
         <energy>540</energy>
         <candyType>
@@ -58,7 +58,7 @@
         </producer>
     </candy>
 
-    <candy id="3">
+    <candy id="ID-3">
         <title>I love you</title>
         <energy>392</energy>
         <candyType>
@@ -90,7 +90,7 @@
         </producer>
     </candy>
 
-    <candy id="4">
+    <candy id="ID-4">
         <title>Chamallows exotic</title>
         <energy>392</energy>
         <candyType>
@@ -122,7 +122,7 @@
         </producer>
     </candy>
 
-    <candy id="4">
+    <candy id="ID-5">
         <title>Super meller</title>
         <energy>450</energy>
         <candyType>
@@ -154,7 +154,7 @@
         </producer>
     </candy>
 
-    <candy id="5">
+    <candy id="ID-6">
         <title>Mentos</title>
         <energy>390</energy>
         <candyType>
@@ -182,7 +182,7 @@
         </producer>
     </candy>
 
-    <candy id="6">
+    <candy id="ID-7">
         <title>Солнечный жук</title>
         <energy>330</energy>
         <candyType>
@@ -210,7 +210,7 @@
         </producer>
     </candy>
 
-    <candy id="7">
+    <candy id="ID-8">
         <title>Roshen classic</title>
         <energy>530</energy>
         <candyType>
@@ -242,7 +242,7 @@
         </producer>
     </candy>
 
-    <candy id="8">
+    <candy id="ID-9">
         <title>Peppinezzz</title>
         <energy>380</energy>
         <candyType>
@@ -270,7 +270,7 @@
         </producer>
     </candy>
 
-    <candy id="9">
+    <candy id="ID-10">
         <title>MilkiWay</title>
         <energy>452</energy>
         <candyType>
@@ -302,7 +302,7 @@
         </producer>
     </candy>
 
-    <candy id="10">
+    <candy id="ID-11">
         <title>Snickers</title>
         <energy>496</energy>
         <candyType>
@@ -334,7 +334,7 @@
         </producer>
     </candy>
 
-    <candy id="11">
+    <candy id="ID-12">
         <title>Mars</title>
         <energy>456</energy>
         <candyType>
@@ -366,7 +366,7 @@
         </producer>
     </candy>
 
-    <candy id="12">
+    <candy id="ID-13">
         <title>Kit Kat</title>
         <energy>520</energy>
         <candyType>
@@ -402,7 +402,7 @@
         </producer>
     </candy>
 
-    <candy id="13">
+    <candy id="ID-14">
         <title>Twix</title>
         <energy>497</energy>
         <candyType>
@@ -438,7 +438,7 @@
         </producer>
     </candy>
 
-    <candy id="14">
+    <candy id="ID-15">
         <title>Skittles "Фруктовый йогурт"</title>
         <energy>406</energy>
         <candyType>
@@ -470,7 +470,7 @@
         </producer>
     </candy>
 
-    <candy id="15">
+    <candy id="ID-17">
         <title>Lion</title>
         <energy>475</energy>
         <candyType>
@@ -502,12 +502,12 @@
         </producer>
     </candy>
 
-    <candy id="16">
+    <candy id="ID-18">
         <title>Toffifee</title>
         <energy>514</energy>
         <candyType>
-            <type>CHOCOLATE</type>
             <filling>true</filling>
+            <type>CHOCOLATE</type>
         </candyType>
         <ingredients>
             <ingredient unit="mg">
@@ -532,7 +532,7 @@
             <protein>5.9</protein>
             <carbohydrates>100</carbohydrates>
         </value>
-        <producer country="DE">
+        <producer>
             <enterprise>Toffifee</enterprise>
             <foundingDate>1973-10-30</foundingDate>
         </producer>

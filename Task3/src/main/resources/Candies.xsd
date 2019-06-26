@@ -2,7 +2,7 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="candies" type="candiesType"/>
   <xs:complexType name="candyTypeType">
-    <xs:sequence>
+    <xs:all>
       <xs:element name="type">
         <xs:simpleType>
           <xs:restriction base="xs:string">
@@ -23,7 +23,7 @@
         </xs:restriction>
         </xs:simpleType>
       </xs:element>
-    </xs:sequence>
+    </xs:all>
   </xs:complexType>
   <xs:complexType name="ingredientType">
     <xs:sequence>
@@ -60,7 +60,7 @@
       <xs:element type="xs:string" name="enterprise"/>
       <xs:element type="xs:date" name="foundingDate"/>
     </xs:sequence>
-    <xs:attribute type="xs:string" name="country" use="required"/>
+    <xs:attribute type="xs:string" name="country" use="optional"/>
   </xs:complexType>
   <xs:complexType name="candyType">
     <xs:sequence>
@@ -71,7 +71,7 @@
       <xs:element type="valueType" name="value"/>
       <xs:element type="producerType" name="producer"/>
     </xs:sequence>
-    <xs:attribute type="xs:string" name="id" use="required"/>
+    <xs:attribute type="xs:ID" name="id" use="required"/>
   </xs:complexType>
   <xs:complexType name="candiesType">
     <xs:sequence>

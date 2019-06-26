@@ -4,11 +4,9 @@ import by.javatr.yudenok.controller.parser.ParserKinds;
 import by.javatr.yudenok.controller.parser.XMLParser;
 import by.javatr.yudenok.controller.parser.factory.ParsersFactory;
 import by.javatr.yudenok.exception.ParserException;
-import by.javatr.yudenok.printer.CandiesPrinter;
+import by.javatr.yudenok.service.CandiesPrinter;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 import org.xml.sax.SAXException;
 
 import javax.xml.bind.JAXBException;
