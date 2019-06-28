@@ -1,6 +1,12 @@
 package by.javatr.yudenok.bean;
 
-import javax.xml.bind.annotation.*;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -55,9 +61,10 @@ public class Value {
     public String getUnit() {
         return unit;
     }
+
     /**
-     * setter.
-     * string value.
+     * simple setter.
+     * @param unit unit
      */
     public void setUnit(final String unit) {
         this.unit = unit;
@@ -72,7 +79,7 @@ public class Value {
 
     /**
      * setter.
-     * double value.
+     * @param fat double value.
      */
     public void setFat(final double fat) {
         this.fat = fat;
@@ -88,7 +95,7 @@ public class Value {
 
     /**
      * setter.
-     * double value.
+     * @param protein double value.
      */
     public void setProtein(final double protein) {
         this.protein = protein;
@@ -110,6 +117,10 @@ public class Value {
         this.carbohydrates = carbohydrates;
     }
 
+    /**
+     * Object representation as string.
+     * @return
+     */
     @Override
     public String toString() {
         return "unit: " + unit + "</br>"

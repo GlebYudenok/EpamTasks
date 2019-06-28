@@ -1,6 +1,6 @@
 package by.javatr.yudenok.exception;
 
-public class ControllerException extends Exception{
+public class ControllerException extends Exception {
     public ControllerException() {
     }
 
@@ -16,7 +16,8 @@ public class ControllerException extends Exception{
         super(cause);
     }
 
-    public ControllerException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+    public ControllerException(String message, Throwable cause,
+                               boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }

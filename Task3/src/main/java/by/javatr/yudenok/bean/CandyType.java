@@ -1,6 +1,11 @@
 package by.javatr.yudenok.bean;
 
-import javax.xml.bind.annotation.*;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.XmlElement;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "type", propOrder = {"type", "filling"})
@@ -50,6 +55,10 @@ public class CandyType {
         this.filling = filling;
     }
 
+    /**
+     * Object represent as string.
+     * @return
+     */
     @Override
     public String toString() {
         return "Filling: " + filling + "</br>type: " + type;

@@ -24,7 +24,7 @@ public final class CandiesPrinter {
 
     /**
      * write to logfile.
-     * @param candies
+     * @param candies outer
      */
     public static void printInfo(final List<Candy> candies) {
         candies.forEach(LOGGER::info);

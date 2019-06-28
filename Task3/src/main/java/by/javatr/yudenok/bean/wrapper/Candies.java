@@ -2,7 +2,12 @@ package by.javatr.yudenok.bean.wrapper;
 
 import by.javatr.yudenok.bean.Candy;
 
-import javax.xml.bind.annotation.*;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.XmlElement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,6 +58,10 @@ public class Candies {
         this.candy = candyList;
     }
 
+    /**
+     * Object represent as string.
+     * @return
+     */
     @Override
     public String toString() {
         return "Candies{"

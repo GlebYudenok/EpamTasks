@@ -1,8 +1,13 @@
 package by.javatr.yudenok.bean;
 
 import by.javatr.yudenok.bean.wrapper.Ingredients;
-
-import javax.xml.bind.annotation.*;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementRef;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -217,6 +222,10 @@ public class Candy {
         this.producer = producer;
     }
 
+    /**
+     * Object represent as string.
+     * @return
+     */
     @Override
     public String toString() {
         return "Candy{"
