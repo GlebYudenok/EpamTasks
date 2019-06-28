@@ -96,12 +96,10 @@ public class Producer {
 
     @Override
     public String toString() {
-        return "Producer{"
-                + "country='" + country + '\''
-                + ", enterprise='" + enterprise + '\''
-                + ", foundingDate=" + foundingDate.get(Calendar.YEAR)
+        return  "country: " + country + "</br>"
+                + "enterprise: " + enterprise + "</br>"
+                + "foundingDate: " + foundingDate.get(Calendar.YEAR)
                 + "-"  + foundingDate.get(Calendar.MONTH)
-                + "-" + foundingDate.get(Calendar.DAY_OF_MONTH)
-                + '}';
+                + "-" + foundingDate.get(Calendar.DAY_OF_MONTH);
     }
 }

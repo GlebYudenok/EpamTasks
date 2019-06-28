@@ -1,10 +1,5 @@
 
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ºÜÉÅ¸-
+qsquid:ModifiersOrderCheck	"EReorder the modifiers to comply with the Java Language Specification.(ƒ¢Èı8Â»•¸-
 [
-squid:S106$"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ8Úå†±¸-
-Jsquid:S1612#",Replace this lambda with a method reference.(ÕÊùø8Îû€±¸-
-bsquid:UselessImportCheck	"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8Îû€±¸-
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ƒ¢Èı8Â»•¸-
-gsquid:UselessImportCheck"7Remove this unused import 'java.util.stream.Collector'.(ß‹ÎÓøÿÿÿÿ8°Ã„±¸-
-Vsquid:S1197""8Move the array designator from the variable to the type.(ÌÄ8Îû€±¸-
-Hsquid:S1068"*Remove this unused "LOGGER" private field.(ƒ¢Èı8Á‡±¸-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ıÛëøÿÿÿÿ8Á‡±¸-
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ä™ÚÑùÿÿÿÿ8ºÜÉÅ¸-

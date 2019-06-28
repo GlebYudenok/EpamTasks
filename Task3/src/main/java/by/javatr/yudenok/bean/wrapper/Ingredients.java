@@ -45,9 +45,6 @@ public class Ingredients {
 
     @Override
     public String toString() {
-        return "Ingredients{"
-                + "ingredients="
-                + ingredient
-                + '}';
+        return ingredient + "</br>";
     }
 }

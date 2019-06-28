@@ -223,7 +223,8 @@ public class Candy {
                 + "id='" + id + '\''
                 + ", title='" + title + '\''
                 + ", energy=" + energy
-                + ", candyType=" + candyType
+                + ", candyType= filling: " + candyType.isFilling()
+                + ", type: " + candyType.getType()
                 + ", ingredients=" + ingredients
                 + ", value=" + value
                 + ", producer=" + producer

@@ -112,12 +112,10 @@ public class Value {
 
     @Override
     public String toString() {
-        return "Value{"
-                + "unit='" + unit + '\''
-                + ", fat=" + fat
-                + ", protein=" + protein
-                + ", carbohydrates=" + carbohydrates
-                + '}';
+        return "unit: " + unit + "</br>"
+                + "fat: " + fat + "</br>"
+                + "protein: " + protein + "</br>"
+                + "carbohydrates: " + carbohydrates;
     }
 }
 

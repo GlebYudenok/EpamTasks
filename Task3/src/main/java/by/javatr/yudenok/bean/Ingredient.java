@@ -91,12 +91,12 @@ public class Ingredient {
         this.unit = unit;
     }
 
+
+
     @Override
     public String toString() {
-        return "Ingredient{"
-                + "quantity=" + quantity
-                + ", name='" + name + '\''
-                + ", unit='" + unit + '\''
-                + '}';
+        return  "name : " + name + "</br>"
+                + "quantity : " + quantity + "</br>"
+                + "unit : " + unit + "</br>";
     }
 }

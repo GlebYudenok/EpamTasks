@@ -52,9 +52,6 @@ public class CandyType {
 
     @Override
     public String toString() {
-        return "CandyType{"
-                + "filling=" + filling
-                + ", type=" + type
-                + '}';
+        return "Filling: " + filling + "</br>type: " + type;
     }
 }

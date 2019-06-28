@@ -1,10 +1,8 @@
 
-[squid:S1197'"8Move the array designator from the variable to the type.(æ„àûÿÿÿÿ8‚‘ª¬¸-
-‡"squid:ClassVariableVisibilityCheck8"RMake matrix a static final constant or non-public and provide accessors if needed.(¢¨ÉŠ8ÈÀæ«¸-
-Usquid:S1068"2Remove this unused "MAX_ARRAY_SIZE" private field.(êä•ÿÿÿÿÿ8û¤¨­¸-
-jsquid:S2095%"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(–ƒÌı8à½£¸-
-psquid:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(­æğ8‚·ï¢¸-
-vsquid:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú¥‘•ÿÿÿÿÿ8Üœë¢¸-
-Vsquid:S2168"9Remove this dangerous instance of double-checked locking.(—à¼:8İ†ì¢¸-
-esquid:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(­æğ8‚·ï¢¸-
-Ksquid:S1481'"(Remove this unused "arr" local variable.(æ„àûÿÿÿÿ8é£­¸-
+psquid:S2975,"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(­æğ8‚·ï¢¸-
+vsquid:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú¥‘•ÿÿÿÿÿ8Üœë¢¸-
+Usquid:S1068"2Remove this unused "MAX_ARRAY_SIZE" private field.(êä•ÿÿÿÿÿ8û¤¨­¸-
+Vsquid:S2168""9Remove this dangerous instance of double-checked locking.(—à¼:8İ†ì¢¸-
+esquid:S1182,"HUse super.clone() to create and seed the cloned instance to be returned.(­æğ8‚·ï¢¸-
+‡"squid:ClassVariableVisibilityCheckL"RMake matrix a static final constant or non-public and provide accessors if needed.(¢¨ÉŠ8ÈÀæ«¸-
+jsquid:S20958"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(–ƒÌı8à½£¸-

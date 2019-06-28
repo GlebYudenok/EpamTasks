@@ -35,8 +35,6 @@ o
 ?Task3/src/main/java/by/javatr/yudenok/bean/wrapper/Candies.java,4\2\421ea7147e346401eab3841161d653f844443265
 =
 Task3/pom.xml,d\d\dd4542c5235e0ca24380346669a4317ddb988622
-q
-ATask3/src/main/java/by/javatr/yudenok/printer/CandiesPrinter.java,8\d\8d70dccf44c527deb5a318c496780cbb7c924833
 k
 ;Task3/src/main/java/by/javatr/yudenok/presentation/Run.java,9\5\956e56b9dc825a49180c835c15fee26ff15570d7
 v
@@ -309,5 +307,17 @@ WDemoExampleMultithreading/src/main/java/by/javatr/yudenok/example12/CommonResou
 PDemoExampleMultithreading/src/main/java/by/javatr/yudenok/example8/Resource.java,d\b\db32e52cb364360ccc4e28d120262d555d2df9a8
 „
 TDemoExampleMultithreading/src/main/java/by/javatr/yudenok/example12/CountThread.java,9\0\909b56d6423bd984385792c5f31a4e637c9f1c31
-t
-DTask4/src/main/java/by/javatr/yudenok/bean/FillerDiagonalThread.java,4\f\4f0871667bb4f0b61c31de16bf4c4fb7160b0b34
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+w
+GTask4/src/main/java/by/javatr/yudenok/service/FillerDiagonalThread.java,d\a\da6a3fb0bbfceaa2d7e8d3f24a8b77ebff5adc02
+M
+Task4/src/main/resources/file,9\4\94b870829b3c8b484a3a3b51e1fdeb9693ffdec3
+q
+ATask3/src/main/java/by/javatr/yudenok/service/CandiesPrinter.java,d\4\d43d7ec820cdaa35d3d6aa2f886c8320d2e04c98
+C
+Task3/web/index.jsp,6\4\6407717fa9af9e51532b76992092f842a36b4a44
+o
+?Task3/src/main/java/by/javatr/yudenok/presentation/Servlet.java,8\8\88107997aa911280d0e3068691c3ec1198d24651
+I
+Task3/web/WEB-INF/web.xml,3\5\356bf7351f5f563463b73ddf618f0a9995e54926

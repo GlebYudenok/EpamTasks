@@ -1,10 +1,10 @@
 
-vsquid:S3008
-"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËèúşÿÿÿÿ8„¾ñ¬¸-
-+squid:S1700"Rename field "matrix"(ÏãÓ
-?squid:S1643N"Use a StringBuilder instead.(šœÙîÿÿÿÿÿ8ÂÈ¡°¸-
-Dsquid:S1481I"&Remove this unused "a" local variable.(®š‹á8ÂÈ¡°¸-
-Vsquid:S2168"9Remove this dangerous instance of double-checked locking.(—à¼:8ŸÈó¬¸-
->squid:S2129H" Remove this "String" constructor(â˜Ê”8ÂÈ¡°¸-
-‹ squid:ForLoopCounterChangedCheck/"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ŒÅ°¸-
-8squid:S1643L"Use a StringBuilder instead.(ÈŸáªşÿÿÿÿ
+‹ squid:ForLoopCounterChangedCheckV"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ŒÅ°¸-
+9squid:S1643ƒ"Use a StringBuilder instead.(ÈŸáªşÿÿÿÿ
+Vsquid:S2168$"9Remove this dangerous instance of double-checked locking.(—à¼:8ŸÈó¬¸-
+vsquid:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËèúşÿÿÿÿ8„¾ñ¬¸-
++squid:S1700"Rename field "matrix"(ÏãÓ
+V
+squid:S106S"9Replace this use of System.out or System.err by a logger.(šÆëé8öŞáÅ¸-
+?squid:S2129€" Remove this "String" constructor(â˜Ê”8ÂÈ¡°¸-
+@squid:S1643…"Use a StringBuilder instead.(šœÙîÿÿÿÿÿ8ÂÈ¡°¸-
