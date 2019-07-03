@@ -1,20 +1,20 @@
 
 INSERT INTO user (name, surname, login, password, phone_number, role)
-VALUES ("John", "Smith", "JohnSmith228", "12345", "+3752927843", 1),
-       ("Караван", "Шахидов", "alhamdullilah", "54321", "8012324", 0),
-       ("Ivan", "Ivanov", "RuskyVanka", "qwerty", "+3752927843", 0),
-       ("Abraham", "Linkoln", "UsaPresident16", "freedom123", "00234231", 0),
-       ("Sergey", "Pahomov", "Poehavshiy17", "yacapla", "103", 1),
-       ("Glad", "Valakas", "Gladiatorpwnz", "22813371488", "1488228", 1),
-       ("Alison", "Hunnigan", "BeautyGirl", "asdfghjk", "+33217843", 0),
-       ("Elon", "Mask", "TeslaCreator18", "admin", "+3752937846", 0),
-       ("Vitaliy", "Цаль", "EvilArthas", "NYAAAAAAA", "215433223", 1),
-       ("Ighor", "Letov", "EgorkaLetov", "vseidetpoplanu", "+375297125115", 1),
-       ("Alexandra", "Bolshakova", "SybyrGirl", "ranwebileluwe", "+375336688241", 1),
-       ("Johnny", "Sins", "LisiyIz...", "uuuuuuuuuu", "+375292723843", 1),
-       ("Alexey", "Vasiliev", "NoFantasy", "noFantasy228", "+375292784233", 0),
-       ("Vasya", "Kuznecov", "WorldDestroyer", "adgjmptw1112", "+375445540091", 1),
-       ("Muhhamed", "Ali", "dfhjn", "borringRoutine", "+37529278433", 0);
+VALUES ("John", "Smith", "JohnSmith228", "12345", 3752927843, 1),
+       ("Караван", "Шахидов", "alhamdullilah", "54321", 8012324, 0),
+       ("Ivan", "Ivanov", "RuskyVanka", "qwerty", 3752927843, 0),
+       ("Abraham", "Linkoln", "UsaPresident16", "freedom123", 00234231, 0),
+       ("Sergey", "Pahomov", "Poehavshiy17", "yacapla", 103, 1),
+       ("Glad", "Valakas", "Gladiatorpwnz", "22813371488", 1488228, 1),
+       ("Alison", "Hunnigan", "BeautyGirl", "asdfghjk", 33217843, 0),
+       ("Elon", "Mask", "TeslaCreator18", "admin", 3752937846, 0),
+       ("Vitaliy", "Цаль", "EvilArthas", "NYAAAAAAA", 215433223, 1),
+       ("Ighor", "Letov", "EgorkaLetov", "vseidetpoplanu", 375297125115, 1),
+       ("Alexandra", "Bolshakova", "SybyrGirl", "ranwebileluwe", 375336688241, 1),
+       ("Johnny", "Sins", "LisiyIz...", "uuuuuuuuuu", 375292723843, 1),
+       ("Alexey", "Vasiliev", "NoFantasy", "noFantasy228", 375292784233, 0),
+       ("Vasya", "Kuznecov", "WorldDestroyer", "adgjmptw1112", 375445540091, 1),
+       ("Muhhamed", "Ali", "dfhjn", "borringRoutine", 37529278433, 0);
 
 
 INSERT INTO service (zone_name, price)
@@ -48,19 +48,20 @@ VALUES ("upper lip", 18),
         ("ComplexVaradero",228),
         ("ComplexNewYork",39);
 
+
 INSERT INTO appointment (service_id, user_id, date, time) VALUES
-                                (1,2,"2019-06-13", "10:00"),
-                                (3,4,"2019-06-13", "20:00"),
-                                (5,6,"2019-06-14", "8:00"),
-                                (2,1,"2019-06-14", "8:00"),
-                                (4,3,"2019-06-14", "8:00"),
-                                (6,5,"2019-06-14", "8:00"),
-                                (7,7,"2019-06-14", "8:00"),
-                                (8,8,"2019-06-14", "8:00"),
-                                (9,9,"2019-06-14", "8:00"),
-                                (5,5,"2019-06-14", "8:00"),
-                                (8,8,"2019-06-14", "8:00"),
-                                (10,9,"2019-06-14", "8:00"),
-                                (9,10,"2019-06-14", "8:00"),
-                                (11,11,"2019-06-14", "8:00"),
-                                (10,10,"2019-06-14", "8:00");
+(1,2,"2019-06-13", "10:00"),
+(3,4,"2019-06-13", "20:00"),
+(5,6,"2019-06-14", "8:00"),
+(2,1,"2019-06-14", "8:00"),
+(4,3,"2019-06-14", "8:00"),
+(6,5,"2019-06-14", "8:00"),
+(7,7,"2019-06-14", "8:00"),
+(8,8,"2019-06-14", "8:00"),
+(9,9,"2019-06-14", "8:00"),
+(5,5,"2019-06-14", "8:00"),
+(8,8,"2019-06-14", "8:00"),
+(10,9,"2019-06-14", "8:00"),
+(9,10,"2019-06-14", "8:00"),
+(11,11,"2019-06-14", "8:00"),
+(10,10,"2019-06-14", "8:00");
