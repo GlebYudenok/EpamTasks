@@ -1,0 +1,1 @@
+CREATE DATABASE laserhairremovalstudiodb DEFAULT CHARACTER SET utf8;
