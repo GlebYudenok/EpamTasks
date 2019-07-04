@@ -22,4 +22,11 @@ public enum Role {
     public static Role getById(Integer id) {
         return Role.values()[id];
     }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

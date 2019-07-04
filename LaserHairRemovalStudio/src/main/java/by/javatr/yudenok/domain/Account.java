@@ -1,12 +1,16 @@
 package by.javatr.yudenok.domain;
 
-public class Account {
+public class Account extends Entity {
     private String login;
     private String password;
 
     public Account(String login, String password) {
         this.login = login;
         this.password = password;
+    }
+
+    public Account() {
+
     }
 
     public String getLogin() {
@@ -42,5 +46,13 @@ public class Account {
         int result = login != null ? login.hashCode() : 0;
         result = 31 * result + (password != null ? password.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

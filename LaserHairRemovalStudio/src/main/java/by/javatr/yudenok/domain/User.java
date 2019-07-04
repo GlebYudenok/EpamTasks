@@ -7,6 +7,10 @@ public class User extends Entity{
     private Account account;
     private Role role;
 
+    public User(){
+
+    }
+
     public User(Integer id) {
         super(id);
     }
@@ -74,5 +78,17 @@ public class User extends Entity{
         result = 31 * result + (account != null ? account.hashCode() : 0);
         result = 31 * result + (role != null ? role.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + getId() + '\'' +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", phoneNumber=" + phoneNumber + '\'' +
+                ", account=" + account + '\'' +
+                ", role=" + role +
+                '}';
     }
 }
