@@ -1,14 +1,0 @@
-
-Fsquid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡™Ï¹-
-Jsquid:S1989"'Add a "try/catch" block for "parseXML".(å½Ù¯ùÿÿÿÿ8‚ë®Ï¹-
-Fsquid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡™Ï¹-
-Fsquid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡™Ï¹-
-Fsquid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡™Ï¹-
-gsquid:S2147&"DCombine this catch with the one at line 34, which has the same body.(ÊÊÆƒüÿÿÿÿ8¡™Ï¹-
-bsquid:S2147("DCombine this catch with the one at line 34, which has the same body.(Ã‡²ö8¡™Ï¹-
-Fsquid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡™Ï¹-
-Fsquid:S1148+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡™Ï¹-
-asquid:S2147*"DCombine this catch with the one at line 34, which has the same body.(Ş‹€[8¡™Ï¹-
-gsquid:S2147,"DCombine this catch with the one at line 34, which has the same body.(âÃƒŠıÿÿÿÿ8¡™Ï¹-
-Ksquid:S1989"(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿ8ÍìŸÏ¹-
-gsquid:S2147$"DCombine this catch with the one at line 34, which has the same body.(¢ë¾ ÿÿÿÿÿ8¡™Ï¹-
