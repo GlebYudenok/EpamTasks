@@ -1,4 +1,4 @@
-
+/*
 INSERT INTO user (name, surname, login, password, phone_number, role)
 VALUES ("John", "Smith", "JohnSmith228", "12345", 3752927843, 1),
        ("Караван", "Шахидов", "alhamdullilah", "54321", 8012324, 0),
@@ -15,7 +15,6 @@ VALUES ("John", "Smith", "JohnSmith228", "12345", 3752927843, 1),
        ("Alexey", "Vasiliev", "NoFantasy", "noFantasy228", 375292784233, 0),
        ("Vasya", "Kuznecov", "WorldDestroyer", "adgjmptw1112", 375445540091, 1),
        ("Muhhamed", "Ali", "dfhjn", "borringRoutine", 37529278433, 0);
-
 
 INSERT INTO service (zone_name, price)
 VALUES ("upper lip", 18),
@@ -64,4 +63,6 @@ INSERT INTO appointment (service_id, user_id, date, time) VALUES
 (10,9,"2019-06-14", "8:00"),
 (9,10,"2019-06-14", "8:00"),
 (11,11,"2019-06-14", "8:00"),
-(10,10,"2019-06-14", "8:00");
+(10,10,"2019-06-14", "8:00");*/
+
+INSERT INTO picture (name, link) VALUES ("cat","C://Users//DELL//Desktop//i.jpg");

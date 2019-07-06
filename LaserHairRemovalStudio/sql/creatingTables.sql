@@ -20,3 +20,8 @@ CREATE TABLE IF NOT EXISTS appointment (id BIGINT AUTO_INCREMENT,
                    PRIMARY KEY (id),
                    FOREIGN KEY (service_id) REFERENCES service(id),
                    FOREIGN KEY (user_id) REFERENCES user(id));
+
+CREATE TABLE IF NOT EXISTS picture (id BIGINT AUTO_INCREMENT,
+                   name VARCHAR(20),
+                   link TEXT,
+                   PRIMARY KEY (id));

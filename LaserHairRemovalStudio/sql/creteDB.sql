@@ -1,1 +1,1 @@
-CREATE DATABASE laserhairremovalstudiodb DEFAULT CHARACTER SET utf8;
+CREATE DATABASE IF NOT EXISTS laserhairremovalstudiodb DEFAULT CHARACTER SET utf8;
