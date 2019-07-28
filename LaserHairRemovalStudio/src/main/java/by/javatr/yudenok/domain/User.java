@@ -29,6 +29,15 @@ public class User extends Entity {
 
     }
 
+    public User(Integer id, String name, String surname, long phoneNumber, Account account, Role role) {
+        super(id);
+        this.name = name;
+        this.surname = surname;
+        this.phoneNumber = phoneNumber;
+        this.account = account;
+        this.role = role;
+    }
+
     /**
      * superclass constructor.
      * @param id id
