@@ -1,10 +1,24 @@
 package by.javatr.yudenok.dao;
 
 import by.javatr.yudenok.domain.Entity;
+import by.javatr.yudenok.exception.PersistentException;
 
-public interface DAO <T extends Entity> {
-    Integer create(T entity);
-    T read(Integer id);
-    void update(T entity);
-    void delete(Integer id);
+import java.sql.SQLException;
+
+public interface DAO<T extends Entity> {
+    /**
+     * create dao entity.
+     * @param entity entity, by which will execute their functions
+     * @return id of entity
+     */
+    Integer create(T entity) throws SQLException;
+
+    /**
+     * read data from database by id.
+     * @param id parameter
+     * @return entity
+     */
+    T read(Integer id) throws SQLException;
+    void update(T entity, Integer id) throws SQLException, PersistentException;
+    void delete(Integer id) throws SQLException;
 }
