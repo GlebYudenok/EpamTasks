@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DemoExampleMultithreading/DemoExampleMultithreading.iml" filepath="$PROJECT_DIR$/DemoExampleMultithreading/DemoExampleMultithreading.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/EpamTasks.iml" filepath="$PROJECT_DIR$/.idea/EpamTasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/LaserHairRemovalStudio/LaserHairRemovalStudio.iml" filepath="$PROJECT_DIR$/LaserHairRemovalStudio/LaserHairRemovalStudio.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task1/Task1.iml" filepath="$PROJECT_DIR$/Task1/Task1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/Task2.iml" filepath="$PROJECT_DIR$/Task2/Task2.iml" />

@@ -15,12 +15,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DemoExampleMultithreading" target="8" />
+      <module name="DemoExampleMultithreading" target="1.5" />
       <module name="LaserHairRemovalStudio" target="8" />
-      <module name="Task1" target="8" />
-      <module name="Task2" target="8" />
-      <module name="Task3" target="8" />
-      <module name="Task4" target="8" />
+      <module name="Task1" target="1.5" />
+      <module name="Task2" target="1.5" />
+      <module name="Task3" target="1.5" />
+      <module name="Task4" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

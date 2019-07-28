@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LaserHairRemovalStudio:Web exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/LaserHairRemovalStudio_Web_exploded2</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="LaserHairRemovalStudio/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LaserHairRemovalStudio" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.11.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.11.2" />
+          <element id="library" level="project" name="org.apache.logging.log4j:log4j-core:2.11.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
