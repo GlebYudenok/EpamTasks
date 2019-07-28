@@ -65,4 +65,4 @@ INSERT INTO appointment (service_id, user_id, date, time) VALUES
 (11,11,"2019-06-14", "8:00"),
 (10,10,"2019-06-14", "8:00");*/
 
-INSERT INTO picture (name, link) VALUES ("cat","C://Users//DELL//Desktop//i.jpg");
+INSERT INTO picture (name, link) VALUES ("cat","img/i.jpg");
