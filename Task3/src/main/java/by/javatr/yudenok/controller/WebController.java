@@ -6,6 +6,8 @@ import by.javatr.yudenok.controller.parser.ParserKinds;
 import by.javatr.yudenok.controller.parser.XMLParser;
 import by.javatr.yudenok.controller.parser.factory.ParsersFactory;
 import by.javatr.yudenok.exception.ParserException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import javax.servlet.http.HttpServlet;
@@ -22,6 +24,7 @@ import java.util.List;
 
 public class WebController extends HttpServlet {
 
+    Logger logger = LogManager.getLogger(WebController.class);
     /**
      * path of file which will parse.
      */
@@ -51,6 +54,7 @@ public class WebController extends HttpServlet {
     public void doPost(final HttpServletRequest request,
                        final HttpServletResponse response)
             throws IOException {
+        logger.info("log");
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         List<Candy> candyList = new ArrayList<>();
